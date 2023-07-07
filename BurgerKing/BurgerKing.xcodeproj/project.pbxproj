@@ -11,6 +11,12 @@
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
 		A9FA3B932A56C6EC0076D776 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B922A56C6EC0076D776 /* Preview Assets.xcassets */; };
+		A9FA3BA72A5879590076D776 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3BA62A5879590076D776 /* Colors.swift */; };
+		A9FA3BA92A5879670076D776 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3BA82A5879670076D776 /* Fonts.swift */; };
+		A9FA3BAB2A587D180076D776 /* Flame-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3BAA2A587D180076D776 /* Flame-Bold.ttf */; };
+		A9FA3BAD2A587D250076D776 /* FlameSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3BAC2A587D250076D776 /* FlameSans-Regular.ttf */; };
+		A9FA3BAF2A587D450076D776 /* Flame-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3BAE2A587D450076D776 /* Flame-Regular.ttf */; };
+		A9FA3BB32A5881300076D776 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3BB22A5881300076D776 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9FA3B922A56C6EC0076D776 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9FA3BA62A5879590076D776 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A9FA3BA82A5879670076D776 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		A9FA3BAA2A587D180076D776 /* Flame-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Flame-Bold.ttf"; path = "../../../../fonts/Flame-Bold.ttf"; sourceTree = "<group>"; };
+		A9FA3BAC2A587D250076D776 /* FlameSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FlameSans-Regular.ttf"; path = "../../../../fonts/FlameSans-Regular.ttf"; sourceTree = "<group>"; };
+		A9FA3BAE2A587D450076D776 /* Flame-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Flame-Regular.ttf"; path = "../../../../fonts/Flame-Regular.ttf"; sourceTree = "<group>"; };
+		A9FA3BB02A587E840076D776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A9FA3BB22A5881300076D776 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,12 @@
 		A9FA3B8A2A56C6EB0076D776 /* BurgerKing */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA3BB02A587E840076D776 /* Info.plist */,
+				A9FA3B9D2A586DAB0076D776 /* Managers */,
+				A9FA3B9C2A586DA00076D776 /* Assets */,
+				A9FA3B9B2A586D970076D776 /* Models */,
+				A9FA3B9A2A586D8C0076D776 /* ViewModels */,
+				A9FA3B992A586D830076D776 /* Views */,
 				A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */,
 				A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */,
 				A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */,
@@ -65,6 +84,119 @@
 				A9FA3B922A56C6EC0076D776 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9FA3B992A586D830076D776 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3BB12A5881180076D776 /* Test */,
+				A9FA3B9E2A586DF40076D776 /* OnBoarding */,
+				A9FA3B9F2A586E050076D776 /* Order */,
+				A9FA3BA02A586E0F0076D776 /* Offers */,
+				A9FA3BA12A586E1B0076D776 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9FA3B9A2A586D8C0076D776 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A9FA3B9B2A586D970076D776 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9FA3B9C2A586DA00076D776 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3BA32A586E4D0076D776 /* Fonts */,
+				A9FA3BA22A586E440076D776 /* Colors */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A9FA3B9D2A586DAB0076D776 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3BA52A586E710076D776 /* FireStore */,
+				A9FA3BA42A586E640076D776 /* Authentication */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A9FA3B9E2A586DF40076D776 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		A9FA3B9F2A586E050076D776 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		A9FA3BA02A586E0F0076D776 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		A9FA3BA12A586E1B0076D776 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A9FA3BA22A586E440076D776 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3BA62A5879590076D776 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		A9FA3BA32A586E4D0076D776 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3BAA2A587D180076D776 /* Flame-Bold.ttf */,
+				A9FA3BAC2A587D250076D776 /* FlameSans-Regular.ttf */,
+				A9FA3BAE2A587D450076D776 /* Flame-Regular.ttf */,
+				A9FA3BA82A5879670076D776 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A9FA3BA42A586E640076D776 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		A9FA3BA52A586E710076D776 /* FireStore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FireStore;
+			sourceTree = "<group>";
+		};
+		A9FA3BB12A5881180076D776 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3BB22A5881300076D776 /* TestView.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +257,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FA3BAB2A587D180076D776 /* Flame-Bold.ttf in Resources */,
 				A9FA3B932A56C6EC0076D776 /* Preview Assets.xcassets in Resources */,
+				A9FA3BAF2A587D450076D776 /* Flame-Regular.ttf in Resources */,
+				A9FA3BAD2A587D250076D776 /* FlameSans-Regular.ttf in Resources */,
 				A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FA3BA92A5879670076D776 /* Fonts.swift in Sources */,
+				A9FA3BB32A5881300076D776 /* TestView.swift in Sources */,
 				A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */,
+				A9FA3BA72A5879590076D776 /* Colors.swift in Sources */,
 				A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +408,7 @@
 				DEVELOPMENT_TEAM = 4MV2XTA97J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BurgerKing/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,6 +439,7 @@
 				DEVELOPMENT_TEAM = 4MV2XTA97J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BurgerKing/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,26 +1,24 @@
-//
-//  ContentView.swift
-//  BurgerKing
-//
-//  Created by Lama AL Yousef on 06/07/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+   var body: some View {
+       Text("Hello, World!")
+           .onAppear(perform: printFontNames)
+   }
+
+   func printFontNames() {
+       for familyName in UIFont.familyNames {
+           print(familyName)
+
+           for fontName in UIFont.fontNames(forFamilyName: familyName) {
+               print("\(fontName)")
+           }
+       }
+   }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+   static var previews: some View {
+       ContentView()
+   }
 }
