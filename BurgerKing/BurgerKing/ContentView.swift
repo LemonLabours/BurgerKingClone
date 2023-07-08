@@ -1,24 +1,29 @@
 import SwiftUI
 
 struct ContentView: View {
-   var body: some View {
-       Text("Hello, World!")
-           .onAppear(perform: printFontNames)
-   }
+    @State private var isShowingLaunchView = true
 
-   func printFontNames() {
-       for familyName in UIFont.familyNames {
-           print(familyName)
-
-           for fontName in UIFont.fontNames(forFamilyName: familyName) {
-               print("\(fontName)")
-           }
-       }
-   }
+    var body: some View {
+        Group {
+            if isShowingLaunchView {
+                LaunchView()
+                    .transition(.opacity) // Add any custom transition you want here
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                            withAnimation {
+                                isShowingLaunchView = false
+                            }
+                        }
+                    }
+            } else {
+                StartView()
+            }
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
-   static var previews: some View {
-       ContentView()
-   }
+    static var previews: some View {
+        ContentView()
+    }
 }
