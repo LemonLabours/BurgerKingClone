@@ -10,6 +10,7 @@
 		A9969CDF2A5988F100C59367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9969CDE2A5988F100C59367 /* LaunchScreen.storyboard */; };
 		A9969CE12A59C62900C59367 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969CE02A59C62900C59367 /* LaunchView.swift */; };
 		A9969CE32A59C67400C59367 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969CE22A59C67400C59367 /* StartView.swift */; };
+		A9969CE62A5B0ACF00C59367 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969CE52A5B0ACF00C59367 /* PrivacyPolicyView.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		A9969CDE2A5988F100C59367 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9969CE02A59C62900C59367 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		A9969CE22A59C67400C59367 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		A9969CE52A5B0ACF00C59367 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9969CE42A5B0AA100C59367 /* ProfileSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				A9969CE52A5B0ACF00C59367 /* PrivacyPolicyView.swift */,
+			);
+			path = ProfileSubViews;
+			sourceTree = "<group>";
+		};
 		A9FA3B7F2A56C6EB0076D776 = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +255,7 @@
 		A9FA3BC52A5883090076D776 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				A9969CE42A5B0AA100C59367 /* ProfileSubViews */,
 				A9FA3BB12A5881180076D776 /* Test */,
 			);
 			path = SubViews;
@@ -325,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9FA3BBC2A5882550076D776 /* HomeView.swift in Sources */,
+				A9969CE62A5B0ACF00C59367 /* PrivacyPolicyView.swift in Sources */,
 				A9FA3BA92A5879670076D776 /* Fonts.swift in Sources */,
 				A9FA3BB82A5882280076D776 /* AllowNotificationView.swift in Sources */,
 				A9969CE12A59C62900C59367 /* LaunchView.swift in Sources */,
