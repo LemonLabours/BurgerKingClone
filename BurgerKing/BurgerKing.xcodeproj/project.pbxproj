@@ -12,6 +12,10 @@
 		A9969CE32A59C67400C59367 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969CE22A59C67400C59367 /* StartView.swift */; };
 		A9969CE62A5B0ACF00C59367 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969CE52A5B0ACF00C59367 /* PrivacyPolicyView.swift */; };
 		A9969CE82A5B420300C59367 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969CE72A5B420300C59367 /* TabView.swift */; };
+		A9969D152A5FF85200C59367 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D142A5FF85200C59367 /* LocationManager.swift */; };
+		A9969D172A5FF88800C59367 /* bklocation.json in Resources */ = {isa = PBXBuildFile; fileRef = A9969D162A5FF88800C59367 /* bklocation.json */; };
+		A9969D192A5FFEE600C59367 /* MapDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D182A5FFEE600C59367 /* MapDirectory.swift */; };
+		A9969D1D2A5FFF4800C59367 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D1C2A5FFF4800C59367 /* Branch.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 		A9969CE22A59C67400C59367 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		A9969CE52A5B0ACF00C59367 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		A9969CE72A5B420300C59367 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		A9969D142A5FF85200C59367 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A9969D162A5FF88800C59367 /* bklocation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bklocation.json; sourceTree = "<group>"; };
+		A9969D182A5FFEE600C59367 /* MapDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDirectory.swift; sourceTree = "<group>"; };
+		A9969D1C2A5FFF4800C59367 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +81,16 @@
 				A9969CE52A5B0ACF00C59367 /* PrivacyPolicyView.swift */,
 			);
 			path = ProfileSubViews;
+			sourceTree = "<group>";
+		};
+		A9969D132A5FF83800C59367 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				A9969D162A5FF88800C59367 /* bklocation.json */,
+				A9969D182A5FFEE600C59367 /* MapDirectory.swift */,
+				A9969D142A5FF85200C59367 /* LocationManager.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 		A9FA3B7F2A56C6EB0076D776 = {
@@ -135,6 +153,7 @@
 		A9FA3B9B2A586D970076D776 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A9969D1C2A5FFF4800C59367 /* Branch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +170,7 @@
 		A9FA3B9D2A586DAB0076D776 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				A9969D132A5FF83800C59367 /* Location */,
 				A9FA3BA52A586E710076D776 /* FireStore */,
 				A9FA3BA42A586E640076D776 /* Authentication */,
 			);
@@ -324,6 +344,7 @@
 			files = (
 				A9FA3BAB2A587D180076D776 /* Flame-Bold.ttf in Resources */,
 				A9FA3B932A56C6EC0076D776 /* Preview Assets.xcassets in Resources */,
+				A9969D172A5FF88800C59367 /* bklocation.json in Resources */,
 				A9FA3BAF2A587D450076D776 /* Flame-Regular.ttf in Resources */,
 				A9969CDF2A5988F100C59367 /* LaunchScreen.storyboard in Resources */,
 				A9FA3BAD2A587D250076D776 /* FlameSans-Regular.ttf in Resources */,
@@ -342,15 +363,18 @@
 				A9969CE62A5B0ACF00C59367 /* PrivacyPolicyView.swift in Sources */,
 				A9FA3BA92A5879670076D776 /* Fonts.swift in Sources */,
 				A9FA3BB82A5882280076D776 /* AllowNotificationView.swift in Sources */,
+				A9969D152A5FF85200C59367 /* LocationManager.swift in Sources */,
 				A9969CE12A59C62900C59367 /* LaunchView.swift in Sources */,
 				A9FA3BB32A5881300076D776 /* TestView.swift in Sources */,
 				A9969CE32A59C67400C59367 /* StartView.swift in Sources */,
 				A9FA3BC22A5882900076D776 /* ProfileView.swift in Sources */,
 				A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */,
 				A9FA3BC02A58827E0076D776 /* OffersView.swift in Sources */,
+				A9969D1D2A5FFF4800C59367 /* Branch.swift in Sources */,
 				A9969CE82A5B420300C59367 /* TabView.swift in Sources */,
 				A9FA3BA72A5879590076D776 /* Colors.swift in Sources */,
 				A9FA3BBA2A5882410076D776 /* AllowLocationView.swift in Sources */,
+				A9969D192A5FFEE600C59367 /* MapDirectory.swift in Sources */,
 				A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */,
 				A9FA3BBE2A58826C0076D776 /* OrderView.swift in Sources */,
 			);
@@ -485,6 +509,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BurgerKing/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -517,6 +542,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BurgerKing/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

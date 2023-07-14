@@ -9,7 +9,13 @@ import SwiftUI
 
 struct OrderView: View {
     var body: some View {
-        Text("Order")
+        ZStack{
+            Color.bkBG
+                .ignoresSafeArea()
+            
+            Text("Order")
+        }
+
     }
 }
 

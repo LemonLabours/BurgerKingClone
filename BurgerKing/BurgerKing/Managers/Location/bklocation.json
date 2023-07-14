@@ -1,0 +1,1067 @@
+[
+    // Riyadh Branches
+  {
+    "name": "Burger King Riyadh - King Fahd Road",
+    "latitude": 24.6946,
+    "longitude": 46.6851,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Olaya Street",
+    "latitude": 24.6904,
+    "longitude": 46.6847,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Prince Turki Bin Abdulaziz Street",
+    "latitude": 24.7249,
+    "longitude": 46.6750,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Tahlia Street",
+    "latitude": 24.6874,
+    "longitude": 46.6849,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Batha",
+    "latitude": 24.6325,
+    "longitude": 46.7107,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - King Abdullah Road",
+    "latitude": 24.6771,
+    "longitude": 46.6563,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Waha",
+    "latitude": 24.7340,
+    "longitude": 46.7267,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Granada Mall",
+    "latitude": 24.7747,
+    "longitude": 46.7174,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Malqa",
+    "latitude": 24.8119,
+    "longitude": 46.6497,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Mather Street",
+    "latitude": 24.6320,
+    "longitude": 46.7166,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Woroud",
+    "latitude": 24.7358,
+    "longitude": 46.6863,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Rabie",
+    "latitude": 24.7685,
+    "longitude": 46.7727,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Wadi",
+    "latitude": 24.6737,
+    "longitude": 46.7180,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Dirah",
+    "latitude": 24.6315,
+    "longitude": 46.7560,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Malaz",
+    "latitude": 24.6711,
+    "longitude": 46.7082,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Yasmin",
+    "latitude": 24.8024,
+    "longitude": 46.6370,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Khaleej",
+    "latitude": 24.6762,
+    "longitude": 46.7459,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Prince Mohammed Bin Abdulaziz Road",
+    "latitude": 24.6961,
+    "longitude": 46.7393,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - King Abdullah Financial District",
+    "latitude": 24.7825,
+    "longitude": 46.7275,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Nahda",
+    "latitude": 24.7814,
+    "longitude": 46.7576,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Manar",
+    "latitude": 24.7314,
+    "longitude": 46.7402,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Nakheel",
+    "latitude": 24.7372,
+    "longitude": 46.6756,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Mughrizat",
+    "latitude": 24.7855,
+    "longitude": 46.6850,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Selayy",
+    "latitude": 24.6956,
+    "longitude": 46.6775,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - Al Ghadir",
+    "latitude": 24.8124,
+    "longitude": 46.6750,
+    "openingHours": {
+      "monday": "08:00 AM",
+      "tuesday": "08:00 AM",
+      "wednesday": "08:00 AM",
+      "thursday": "08:00 AM",
+      "friday": "09:00 AM",
+      "saturday": "08:00 AM",
+      "sunday": "08:00 AM"
+    },
+    "closingHours": {
+      "monday": "12:00 AM",
+      "tuesday": "12:00 AM",
+      "wednesday": "12:00 AM",
+      "thursday": "12:00 AM",
+      "friday": "01:00 AM",
+      "saturday": "12:00 AM",
+      "sunday": "12:00 AM"
+    }
+  },
+  {
+    "name": "Burger King Riyadh - King Abdulaziz Road",
+    "latitude": 24.7074,
+    "longitude": 46.7603,
+    "openingHours": {
+      "monday": "07:00 AM",
+      "tuesday": "07:00 AM",
+      "wednesday": "07:00 AM",
+      "thursday": "07:00 AM",
+      "friday": "08:00 AM",
+      "saturday": "07:00 AM",
+      "sunday": "07:00 AM"
+    },
+    "closingHours": {
+      "monday": "01:00 AM",
+      "tuesday": "01:00 AM",
+      "wednesday": "01:00 AM",
+      "thursday": "01:00 AM",
+      "friday": "02:00 AM",
+      "saturday": "01:00 AM",
+      "sunday": "01:00 AM"
+    }
+  },
+
+  // Jeddah Branches
+    {
+      "name": "Burger King Jeddah - King Abdulaziz Road",
+      "latitude": 21.5479,
+      "longitude": 39.1747,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Jeddah - Tahlia Street",
+      "latitude": 21.5427,
+      "longitude": 39.1873,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Jeddah - Prince Sultan Street",
+      "latitude": 21.5603,
+      "longitude": 39.1805,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Jeddah - Al-Andalus Street",
+      "latitude": 21.5861,
+      "longitude": 39.1620,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Jeddah - Al-Salamah District",
+      "latitude": 21.5923,
+      "longitude": 39.1784,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Jeddah - Al-Madinah Al-Munawarah Road",
+      "latitude": 21.5708,
+      "longitude": 39.1619,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Jeddah - Al-Hamra District",
+      "latitude": 21.5424,
+      "longitude": 39.1833,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Jeddah - King Abdullah Road",
+      "latitude": 21.5950,
+      "longitude": 39.1418,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+
+    // Al Khobar Branches
+    {
+      "name": "Burger King Al Khobar - Corniche",
+      "latitude": 26.3002,
+      "longitude": 50.1748,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Al Khobar - Prince Faisal Bin Fahd Street",
+      "latitude": 26.2853,
+      "longitude": 50.2039,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Al Khobar - Al Ulaya",
+      "latitude": 26.2924,
+      "longitude": 50.1914,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Al Khobar - Al Doha",
+      "latitude": 26.3006,
+      "longitude": 50.1959,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Al Khobar - Half Moon Bay",
+      "latitude": 26.3194,
+      "longitude": 50.1971,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Al Khobar - Al Thuqbah",
+      "latitude": 26.2834,
+      "longitude": 50.1844,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Al Khobar - King Fahd Road",
+      "latitude": 26.2698,
+      "longitude": 50.2122,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+
+    // Dhahran Branches
+    {
+      "name": "Burger King Dhahran - King Fahd Road",
+      "latitude": 26.2784,
+      "longitude": 50.1000,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Dhahran - Al Othaim Mall",
+      "latitude": 26.2842,
+      "longitude": 50.1674,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Dhahran - Dammam Road",
+      "latitude": 26.2876,
+      "longitude": 50.1459,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Dhahran - Al Shati",
+      "latitude": 26.2768,
+      "longitude": 50.1541,
+      "openingHours": {
+        "monday": "08:00 AM",
+        "tuesday": "08:00 AM",
+        "wednesday": "08:00 AM",
+        "thursday": "08:00 AM",
+        "friday": "09:00 AM",
+        "saturday": "08:00 AM",
+        "sunday": "08:00 AM"
+      },
+      "closingHours": {
+        "monday": "12:00 AM",
+        "tuesday": "12:00 AM",
+        "wednesday": "12:00 AM",
+        "thursday": "12:00 AM",
+        "friday": "01:00 AM",
+        "saturday": "12:00 AM",
+        "sunday": "12:00 AM"
+      }
+    },
+    {
+      "name": "Burger King Dhahran - King Fahd University of Petroleum and Minerals",
+      "latitude": 26.2927,
+      "longitude": 50.2002,
+      "openingHours": {
+        "monday": "07:00 AM",
+        "tuesday": "07:00 AM",
+        "wednesday": "07:00 AM",
+        "thursday": "07:00 AM",
+        "friday": "08:00 AM",
+        "saturday": "07:00 AM",
+        "sunday": "07:00 AM"
+      },
+      "closingHours": {
+        "monday": "01:00 AM",
+        "tuesday": "01:00 AM",
+        "wednesday": "01:00 AM",
+        "thursday": "01:00 AM",
+        "friday": "02:00 AM",
+        "saturday": "01:00 AM",
+        "sunday": "01:00 AM"
+      }
+    }
+  ]

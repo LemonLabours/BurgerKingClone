@@ -8,5 +8,9 @@
 		<string>Flame-Regular.ttf</string>
 		<string>FlameSans-Regular.ttf</string>
 	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 </dict>
 </plist>
