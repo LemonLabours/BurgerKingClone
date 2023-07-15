@@ -7,6 +7,7 @@
 
 import Foundation
 import MapKit
+import CoreLocation
 
 final class Branch: NSObject, Decodable, Identifiable {
     let name: String

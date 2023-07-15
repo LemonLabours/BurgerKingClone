@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct BurgerKingApp: App {
+    @StateObject private var locationViewModel = AllowLocationViewModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(locationViewModel)
         }
     }
 }

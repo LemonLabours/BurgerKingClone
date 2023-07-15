@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import CoreLocation
+import MapKit
 
 struct BKMapDirectory {
     let branches: [Branch] = {

@@ -4,72 +4,49 @@
 //
 //  Created by Lama AL Yousef on 09/07/2023.
 import SwiftUI
+
 struct MainTabView: View {
-    @State private var selection = 0
+    @State private var selectedTab: Int = 0
+
+    init() {
+        let customColor = UIColor(red: 0.29, green: 0.15, blue: 0.09, alpha: 1.0) // Replace with your custom color
+        UITabBar.appearance().unselectedItemTintColor = customColor
+    }
 
     var body: some View {
-        VStack {
-            Spacer()
-
-            switch selection {
-            case 0: HomeView()
-            case 1: OrderView()
-            case 2: OffersView()
-            case 3: ProfileView()
-            default: HomeView()
-            }
-
-            Spacer()
-
-            HStack {
-                Button(action: { selection = 0 }) {
-                    VStack {
-                        Image(systemName: "house.fill")
-                            .foregroundColor(selection == 0 ? .bkRed : .bkDarkBrown)
-                            .font(.title)
+        NavigationView {
+            TabView(selection: $selectedTab) {
+                HomeView()
+                    .tabItem {
+                        Image(systemName: "house")
                         Text("Home")
-                            .foregroundColor(selection == 0 ? .bkRed : .bkDarkBrown)
                     }
-                }
+                    .tag(0)
 
-                Spacer()
-
-                Button(action: { selection = 1 }) {
-                    VStack {
+                OrderView()
+                    .tabItem {
                         Image(systemName: "takeoutbag.and.cup.and.straw.fill")
-                            .foregroundColor(selection == 1 ? .bkRed : .bkDarkBrown)
-                            .font(.title)
                         Text("Order")
-                            .foregroundColor(selection == 1 ? .bkRed : .bkDarkBrown)
                     }
-                }
+                    .tag(1)
 
-                Spacer()
-
-                Button(action: { selection = 2 }) {
-                    VStack {
-                        Image(systemName: "tag.fill")
-                            .foregroundColor(selection == 2 ? .bkRed : .bkDarkBrown)
-                            .font(.title)
+                OffersView()
+                    .tabItem {
+                        Image(systemName: "giftcard")
                         Text("Offers")
-                            .foregroundColor(selection == 2 ? .bkRed : .bkDarkBrown)
                     }
-                }
+                    .tag(2)
 
-                Spacer()
-
-                Button(action: { selection = 3 }) {
-                    VStack {
-                        Image(systemName: "person.fill")
-                            .foregroundColor(selection == 3 ? .bkRed : .bkDarkBrown)
-                            .font(.title)
+                ProfileView()
+                    .tabItem {
+                        Image(systemName: "person")
                         Text("Profile")
-                            .foregroundColor(selection == 3 ? .bkRed : .bkDarkBrown)
                     }
-                }
+                    .tag(3)
             }
-            .padding(.horizontal)
-        }.padding()
+            .accentColor(.red) // Set the accent color to red
+
+        }     .navigationBarBackButtonHidden(true) // Hide the back button
     }
 }
 

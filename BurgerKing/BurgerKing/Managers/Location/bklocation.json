@@ -1,5 +1,5 @@
 [
-    // Riyadh Branches
+
   {
     "name": "Burger King Riyadh - King Fahd Road",
     "latitude": 24.6946,
@@ -599,7 +599,7 @@
     }
   },
 
-  // Jeddah Branches
+
     {
       "name": "Burger King Jeddah - King Abdulaziz Road",
       "latitude": 21.5479,
@@ -785,7 +785,7 @@
       }
     },
 
-    // Al Khobar Branches
+
     {
       "name": "Burger King Al Khobar - Corniche",
       "latitude": 26.3002,
@@ -948,7 +948,6 @@
       }
     },
 
-    // Dhahran Branches
     {
       "name": "Burger King Dhahran - King Fahd Road",
       "latitude": 26.2784,
