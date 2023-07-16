@@ -1,8 +1,10 @@
 //
-//  TabView.swift
+//  MainTabView.swift
 //  BurgerKing
 //
-//  Created by Lama AL Yousef on 09/07/2023.
+//  Created by Lama AL Yousef on 15/07/2023.
+//
+
 import SwiftUI
 
 struct MainTabView: View {
@@ -49,6 +51,7 @@ struct MainTabView: View {
         }     .navigationBarBackButtonHidden(true) // Hide the back button
     }
 }
+
 
 struct MainTabView_Previews: PreviewProvider {
     static var previews: some View {

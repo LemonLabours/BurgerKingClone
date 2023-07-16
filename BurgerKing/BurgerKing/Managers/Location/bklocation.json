@@ -1,9 +1,10 @@
 [
 
   {
-    "name": "Burger King Riyadh - King Fahd Road",
-    "latitude": 24.6946,
-    "longitude": 46.6851,
+    "name": "Riyadh - Al Bustan",
+    "address":"Prince Saud Ibn Abdullah Ibn Jalawi",
+    "latitude": 24.850544702281148,
+    "longitude": 46.63682460645929,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -24,9 +25,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Olaya Street",
-    "latitude": 24.6904,
-    "longitude": 46.6847,
+    "name": "Riyadh - King Abdul Aziz 2 ",
+    "address":"King Abdul Aziz Branch Rd",
+    "latitude": 24.81649557649156,
+    "longitude": 46.6457450096835,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -47,9 +49,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Prince Turki Bin Abdulaziz Street",
-    "latitude": 24.7249,
-    "longitude": 46.6750,
+    "name": "Riyadh - Almakan Mall",
+    "address":"King Abdul Aziz Rd",
+    "latitude": 24.791015245788053,
+    "longitude":  46.61231533057981,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -70,9 +73,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Tahlia Street",
-    "latitude": 24.6874,
-    "longitude": 46.6849,
+    "name": "Riyadh - Sahafa",
+    "address":"King Fahad branch Rd",
+    "latitude": 24.789703142291966,
+    "longitude": 46.633564279471535,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -93,9 +97,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Batha",
-    "latitude": 24.6325,
-    "longitude": 46.7107,
+    "name": "Riyadh - Nada",
+    "address":"Prince Mohammed Ibn Salman Ibn Abdulaziz Rd",
+    "latitude": 24.801041568444205,
+    "longitude": 46.69304955063615,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -116,9 +121,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - King Abdullah Road",
-    "latitude": 24.6771,
-    "longitude": 46.6563,
+    "name": "Riyadh - Othman",
+    "address":"Uthman Ibn Affan Branch Rd",
+    "latitude": 24.779465633165724,
+    "longitude": 46.707809364130036,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -139,9 +145,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Waha",
-    "latitude": 24.7340,
-    "longitude": 46.7267,
+    "name": "Riyadh - Exit 7",
+    "address":"Uthman Ibn Affan Branch Rd",
+    "latitude": 24.7843028127151,
+    "longitude": 46.70006209296542,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -162,9 +169,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Granada Mall",
-    "latitude": 24.7747,
-    "longitude": 46.7174,
+    "name": "Riyadh - Tala Mall",
+    "address":"King Abdulaziz Rd",
+    "latitude": 24.77246164031082,
+    "longitude": 46.66869690645929,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -185,9 +193,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Malqa",
-    "latitude": 24.8119,
-    "longitude": 46.6497,
+    "name": "Riyadh - Plaza 46",
+    "address":"Al Thoumamah Rd",
+    "latitude": 24.832160337513642,
+    "longitude": 46.73231036413003,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -208,9 +217,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Mather Street",
-    "latitude": 24.6320,
-    "longitude": 46.7166,
+    "name": "Riyadh - Park Mall",
+    "address":"Nortern Ring Br Rd",
+    "latitude": 24.756736798442994,
+    "longitude": 46.629779906459284,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -231,9 +241,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Woroud",
-    "latitude": 24.7358,
-    "longitude": 46.6863,
+    "name": "Riyadh - Sasco Airport",
+    "address":"Airport Branch Rd",
+    "latitude": 24.847564356601413,
+    "longitude":  46.73390909296541,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -254,9 +265,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Rabie",
-    "latitude": 24.7685,
-    "longitude": 46.7727,
+    "name": "Riyadh - Qurtubah",
+    "address":"Said Ibn Zayd Rd",
+    "latitude": 24.820621566714536,
+    "longitude": 46.730412391117795,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -277,9 +289,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Wadi",
-    "latitude": 24.6737,
-    "longitude": 46.7180,
+    "name": "Riyadh - Nakheel Mall",
+    "address":"Al Imam Saud Ibn Abdul Aziz Branch Rd",
+    "latitude": 24.767749838694197,
+    "longitude": 46.71606482180079,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -300,9 +313,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Dirah",
-    "latitude": 24.6315,
-    "longitude": 46.7560,
+    "name": "Riyadh - Bin Turkey",
+    "address": "Prince Turki Ibn Abdulaziz Al Awwal Rd",
+    "latitude": 24.74641312854199,
+    "longitude": 46.61906017762392,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -323,9 +337,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Malaz",
-    "latitude": 24.6711,
-    "longitude": 46.7082,
+    "name": "Riyadh -  Exit 8 Dammam Rd",
+    "address": "Exit 8, Dammam Branch Rd",
+    "latitude": 24.80075656882477,
+    "longitude": 46.74321873714227,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -346,9 +361,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Yasmin",
-    "latitude": 24.8024,
-    "longitude": 46.6370,
+    "name": "Riyadh - Dareyah",
+    "address": "King Abdul Aziz Rd",
+    "latitude": 24.75248243910377,
+    "longitude": 46.57297610308425,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -369,9 +385,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Khaleej",
-    "latitude": 24.6762,
-    "longitude": 46.7459,
+    "name": "Riyadh - Lulu Avenue Mall",
+    "address": "Prince Faisal Bin Turki Bin Abdulaziz St",
+    "latitude": 24.665757902204266,
+    "longitude": 46.70425350645555,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -392,9 +409,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Prince Mohammed Bin Abdulaziz Road",
-    "latitude": 24.6961,
-    "longitude": 46.7393,
+    "name": "Riyadh - Makkah Road",
+    "address": "Makkah Al Mukarramah Br Rd",
+    "latitude": 24.682761855080415,
+    "longitude": 46.694920795082794,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -415,9 +433,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - King Abdullah Financial District",
-    "latitude": 24.7825,
-    "longitude": 46.7275,
+    "name": "Riyadh - Ishbiliyah",
+    "address": "King Abdullah Rd",
+    "latitude": 24.78069338222087,
+    "longitude": 46.77729330921204,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -438,9 +457,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Nahda",
-    "latitude": 24.7814,
-    "longitude": 46.7576,
+    "name": "Riyadh - Azizia",
+    "address": "Azizia Rd",
+    "latitude": 24.571689914657387,
+    "longitude":  46.78890479040602,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -461,9 +481,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Manar",
-    "latitude": 24.7314,
-    "longitude": 46.7402,
+    "name": "Riyadh - Shifa",
+    "address": "Nahr Al Berdaouni rd",
+    "latitude": 24.562413733661536,
+    "longitude": 46.705851841193294,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -484,9 +505,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Nakheel",
-    "latitude": 24.7372,
-    "longitude": 46.6756,
+    "name": "Riyadh - Dirab",
+    "address": "Dirab Branch Rd",
+    "latitude": 24.542003721033584,
+    "longitude": 46.65922562269424,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -507,9 +529,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Mughrizat",
-    "latitude": 24.7855,
-    "longitude": 46.6850,
+    "name": "Riyadh - Najmuddin",
+    "address": "Najm Ad Din Al Ayyubi Rd",
+    "latitude": 24.56438179765517,
+    "longitude": 46.54530664318012,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -530,9 +553,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Selayy",
-    "latitude": 24.6956,
-    "longitude": 46.6775,
+    "name": "Riyadh - Badia2",
+    "address": "Al Madinah Al Munawara Rd",
+    "latitude": 24.596935031441223,
+    "longitude": 46.623054656099775,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -553,9 +577,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - Al Ghadir",
-    "latitude": 24.8124,
-    "longitude": 46.6750,
+    "name": "Riyadh - Al Souweidi",
+    "address": "Al Madinah Al Munawara Rd",
+    "latitude": 24.60013778272739,
+    "longitude": 46.668846148041574,
     "openingHours": {
       "monday": "08:00 AM",
       "tuesday": "08:00 AM",
@@ -576,9 +601,10 @@
     }
   },
   {
-    "name": "Burger King Riyadh - King Abdulaziz Road",
-    "latitude": 24.7074,
-    "longitude": 46.7603,
+    "name": "Riyadh - Exit 21",
+    "address": "Souod Bin Abd Al Rahman 2nd Rd",
+    "latitude": 24.609745545851837,
+    "longitude": 46.74563495958422,
     "openingHours": {
       "monday": "07:00 AM",
       "tuesday": "07:00 AM",
@@ -600,10 +626,14 @@
   },
 
 
+
+
+
     {
-      "name": "Burger King Jeddah - King Abdulaziz Road",
-      "latitude": 21.5479,
-      "longitude": 39.1747,
+      "name": "Jeddah - Sultan St",
+      "address": "Prince Sultan Branch Rd",
+      "latitude": 21.65836806481729,
+      "longitude": 39.12486632942921,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",
@@ -624,9 +654,10 @@
       }
     },
     {
-      "name": "Burger King Jeddah - Tahlia Street",
-      "latitude": 21.5427,
-      "longitude": 39.1873,
+      "name": "Jeddah - Event Mall",
+      "address": "Al Amir Fawwaz Al Junoobi rd",
+      "latitude": 21.458533678311557,
+      "longitude": 39.27858124818969,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -647,9 +678,10 @@
       }
     },
     {
-      "name": "Burger King Jeddah - Prince Sultan Street",
-      "latitude": 21.5603,
-      "longitude": 39.1805,
+      "name": "Jeddah - Serafi Mega Mall",
+      "address": "Prince Mohammed Bin Abdulaziz St",
+      "latitude": 21.58271489208415,
+      "longitude": 39.18539205381525,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",
@@ -670,9 +702,10 @@
       }
     },
     {
-      "name": "Burger King Jeddah - Al-Andalus Street",
-      "latitude": 21.5861,
-      "longitude": 39.1620,
+      "name": "Jeddah - Al Yasmin Mall",
+      "address": "Al Ajawad St",
+      "latitude": 21.62018267846886,
+      "longitude": 39.224430770377516,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -693,9 +726,10 @@
       }
     },
     {
-      "name": "Burger King Jeddah - Al-Salamah District",
-      "latitude": 21.5923,
-      "longitude": 39.1784,
+      "name": "Jeddah - Tahlia Mall",
+      "address": "Prince Mohammed Bin Abdulaziz St",
+      "latitude": 21.565148528955092,
+      "longitude": 39.14761264401815,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",
@@ -716,9 +750,10 @@
       }
     },
     {
-      "name": "Burger King Jeddah - Al-Madinah Al-Munawarah Road",
-      "latitude": 21.5708,
-      "longitude": 39.1619,
+      "name": "Jeddah - Ice Land",
+      "address": "Prince Sultan Rd",
+      "latitude": 21.603355974993597,
+      "longitude": 39.14539853606159,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -739,9 +774,10 @@
       }
     },
     {
-      "name": "Burger King Jeddah - Al-Hamra District",
-      "latitude": 21.5424,
-      "longitude": 39.1833,
+      "name": "Jeddah - Jarir",
+      "address": "Amir Muhammad Bin Abdulaziz St",
+      "latitude": 21.574609769611257,
+      "longitude": 39.22288804366768,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",
@@ -762,9 +798,10 @@
       }
     },
     {
-      "name": "Burger King Jeddah - King Abdullah Road",
-      "latitude": 21.5950,
-      "longitude": 39.1418,
+      "name": "Jeddah - Town Square",
+      "address": "5229 Abdullah Sulayman St",
+      "latitude": 21.490969017039188,
+      "longitude": 39.238324308379845,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -787,9 +824,10 @@
 
 
     {
-      "name": "Burger King Al Khobar - Corniche",
-      "latitude": 26.3002,
-      "longitude": 50.1748,
+      "name": "Dhahran -  Doha",
+      "address": "Anas Ibn Malik St Off Prince Sultan Rd",
+      "latitude": 26.335516826993118,
+      "longitude": 50.16298988813318,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -810,9 +848,10 @@
       }
     },
     {
-      "name": "Burger King Al Khobar - Prince Faisal Bin Fahd Street",
-      "latitude": 26.2853,
-      "longitude": 50.2039,
+      "name": "Al Khobar -  Al Jisr",
+      "address": "Cooperative Council Rd",
+      "latitude": 26.220042359400196,
+      "longitude": 50.20777099302413,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",
@@ -833,9 +872,10 @@
       }
     },
     {
-      "name": "Burger King Al Khobar - Al Ulaya",
-      "latitude": 26.2924,
-      "longitude": 50.1914,
+      "name": "Al Khobar -  Rashid Mall",
+      "address": "Firas Ibn Al Nudur St",
+      "latitude": 26.296029690879646,
+      "longitude": 50.18201980294895,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -856,9 +896,10 @@
       }
     },
     {
-      "name": "Burger King Al Khobar - Al Doha",
-      "latitude": 26.3006,
-      "longitude": 50.1959,
+      "name": "Al Khobar - Pepsi Road",
+      "address": "Prince Faisal Bin Fahd Road",
+      "latitude": 26.311418983763833,
+      "longitude": 50.17979448085669,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",
@@ -879,9 +920,10 @@
       }
     },
     {
-      "name": "Burger King Al Khobar - Half Moon Bay",
-      "latitude": 26.3194,
-      "longitude": 50.1971,
+      "name": "Dammam - Othaim",
+      "address": "Prince Mohammed Bin Fahad Rd",
+      "latitude": 26.404850747293413,
+      "longitude": 50.115260097363205,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -902,9 +944,10 @@
       }
     },
     {
-      "name": "Burger King Al Khobar - Al Thuqbah",
-      "latitude": 26.2834,
-      "longitude": 50.1844,
+      "name": "Dammam -  Shateaa",
+      "address": "Prince Mohammed Bin Fahd Road",
+      "latitude": 26.46463018656502,
+      "longitude": 50.12130026085307,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",
@@ -925,9 +968,10 @@
       }
     },
     {
-      "name": "Burger King Al Khobar - King Fahd Road",
-      "latitude": 26.2698,
-      "longitude": 50.2122,
+      "name": "Dammam - Dareen Mall",
+      "address": "Khaleej Rd",
+      "latitude": 26.470037273177308,
+      "longitude": 50.06471346288758,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -949,9 +993,10 @@
     },
 
     {
-      "name": "Burger King Dhahran - King Fahd Road",
-      "latitude": 26.2784,
-      "longitude": 50.1000,
+      "name": "Dammam -  Alfursan",
+      "address": "Dammam - Riyadh Road",
+      "latitude": 26.353833673750902,
+      "longitude": 49.96792719235287,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",
@@ -972,9 +1017,10 @@
       }
     },
     {
-      "name": "Burger King Dhahran - Al Othaim Mall",
-      "latitude": 26.2842,
-      "longitude": 50.1674,
+      "name": "Dammam - West Avenue Mall",
+      "address": "Omar Ibn Al Khattab St",
+      "latitude": 26.393840141192566,
+      "longitude": 50.07458340599483,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -995,9 +1041,10 @@
       }
     },
     {
-      "name": "Burger King Dhahran - Dammam Road",
-      "latitude": 26.2876,
-      "longitude": 50.1459,
+      "name": "Dammam -  Centro Plaza",
+      "address": "King Saud St",
+      "latitude": 26.42953597415543,
+      "longitude": 50.03600159587196,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",
@@ -1018,9 +1065,10 @@
       }
     },
     {
-      "name": "Burger King Dhahran - Al Shati",
-      "latitude": 26.2768,
-      "longitude": 50.1541,
+      "name": "Al Khobar - Prince Humud",
+      "address": "Near Tamimi Markets, Prince Hammoud",
+      "latitude": 26.305272688822626,
+      "longitude": 50.19956260914884,
       "openingHours": {
         "monday": "08:00 AM",
         "tuesday": "08:00 AM",
@@ -1041,9 +1089,10 @@
       }
     },
     {
-      "name": "Burger King Dhahran - King Fahd University of Petroleum and Minerals",
-      "latitude": 26.2927,
-      "longitude": 50.2002,
+      "name": "Dhahran - KFUPM Mall",
+      "address": " Academic Belt Rd, KFUPM",
+      "latitude": 26.321296197877373, 
+      "longitude": 50.149017454702346,
       "openingHours": {
         "monday": "07:00 AM",
         "tuesday": "07:00 AM",

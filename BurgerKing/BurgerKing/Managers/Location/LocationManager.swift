@@ -3,11 +3,14 @@
 //  BurgerKing
 //
 //  Created by Lama AL Yousef on 13/07/2023.
+
 import Foundation
 import CoreLocation
 import MapKit
 
 final class LocationManager: NSObject, ObservableObject {
+    static let shared = LocationManager() // Add the shared instance
+
     @Published var userLocation: CLLocation?
     @Published var nearestBranches: [Branch] = []
     @Published var locationError: Error?
