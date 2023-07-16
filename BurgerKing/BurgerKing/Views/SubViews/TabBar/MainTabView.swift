@@ -25,7 +25,7 @@ struct MainTabView: View {
                 }
                 .tag(0)
 
-            OrderView()
+            OrderView(selectedTab: .constant(0))
                 .tabItem {
                     Image(systemName: "takeoutbag.and.cup.and.straw.fill")
                     Text("Order")
