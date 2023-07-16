@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct MainTabView: View {
     @State private var selectedTab: Int = 0
 
@@ -16,45 +17,43 @@ struct MainTabView: View {
     }
 
     var body: some View {
-        NavigationView {
-            TabView(selection: $selectedTab) {
-                HomeView()
-                    .tabItem {
-                        Image(systemName: "house")
-                        Text("Home")
-                    }
-                    .tag(0)
+        TabView(selection: $selectedTab) {
+            HomeView(selectedTab: $selectedTab) // Pass the selectedTab binding to HomeView
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+                .tag(0)
 
-                OrderView()
-                    .tabItem {
-                        Image(systemName: "takeoutbag.and.cup.and.straw.fill")
-                        Text("Order")
-                    }
-                    .tag(1)
+            OrderView()
+                .tabItem {
+                    Image(systemName: "takeoutbag.and.cup.and.straw.fill")
+                    Text("Order")
+                }
+                .tag(1)
 
-                OffersView()
-                    .tabItem {
-                        Image(systemName: "giftcard")
-                        Text("Offers")
-                    }
-                    .tag(2)
+            OffersView()
+                .tabItem {
+                    Image(systemName: "giftcard")
+                    Text("Offers")
+                }
+                .tag(2)
 
-                ProfileView()
-                    .tabItem {
-                        Image(systemName: "person")
-                        Text("Profile")
-                    }
-                    .tag(3)
-            }
-            .accentColor(.red) // Set the accent color to red
-
-        }     .navigationBarBackButtonHidden(true) // Hide the back button
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Profile")
+                }
+                .tag(3)
+        }
+        .accentColor(.red) // Set the accent color to red
+        .navigationBarBackButtonHidden(true) // Hide the back button
     }
 }
-
 
 struct MainTabView_Previews: PreviewProvider {
     static var previews: some View {
         MainTabView()
     }
 }
+

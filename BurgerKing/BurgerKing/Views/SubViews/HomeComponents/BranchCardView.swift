@@ -7,6 +7,8 @@
 import SwiftUI
 import CoreLocation
 
+
+
 struct BranchCardView: View {
     let branch: Branch
 
@@ -25,24 +27,28 @@ struct BranchCardView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(branch.name)
-                .font(.headline)
-                .foregroundColor(.black)
+                .flame(font: .regular , size: 24)
+                .foregroundColor(.bkDarkBrown)
 
             Text(String(format: "%.1f km", calculateDistanceFromUser()))
-                .font(.subheadline)
-                .foregroundColor(.gray)
+                .flame(font: .regular , size: 16)
+                .foregroundColor(.bkDarkBrown)
 
             Text(branch.address)
-                .font(.subheadline)
-                .foregroundColor(.gray)
+                .font(.title3)
+                .foregroundColor(.bkBrown)
 
             Text(todayOpeningHours)
-                .font(.subheadline)
-                .foregroundColor(.blue)
+                .font(.title3)
+                .foregroundColor(.bkBrown)
         }
-        .padding(12)
+        .padding(24)
         .background(Color.bkBG)
         .cornerRadius(8)
+        .overlay(
+            RoundedRectangle(cornerRadius: 8)
+                .stroke(Color.bkDarkBG, lineWidth: 1) 
+        )
     }
 
     // Function to calculate distance from user location to branch location
