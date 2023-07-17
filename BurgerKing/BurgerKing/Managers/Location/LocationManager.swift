@@ -16,10 +16,10 @@ final class LocationManager: NSObject, ObservableObject {
     @Published var locationError: Error?
 
     private let locationManager = CLLocationManager()
-    private let branchLocations: [Branch]
+    let branchLocations: [Branch] // Change the access level to internal
 
     override init() {
-        self.branchLocations = BKMapDirectory().branches
+        self.branchLocations = BKMapDirectory().branches // Change the access level to internal
         super.init()
         locationManager.delegate = self
     }

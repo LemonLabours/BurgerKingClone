@@ -51,9 +51,8 @@ struct OrderView: View {
                 }
                 .padding(.horizontal, 24)
 
-                // Add the MapView to show the user's current location
                 if let userCoordinate = LocationManager.shared.userLocation?.coordinate {
-                    MapView(coordinate: userCoordinate)
+                    MapView(coordinate: userCoordinate, branches: LocationManager.shared.branchLocations) // Pass the entire branchLocations array
                         .frame(height: 620)
                         .padding(.bottom, 16)
                 }

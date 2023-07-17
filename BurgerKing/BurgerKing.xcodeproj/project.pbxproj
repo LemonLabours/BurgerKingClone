@@ -23,6 +23,7 @@
 		A9969D2E2A63C53B00C59367 /* BranchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D2D2A63C53B00C59367 /* BranchCardView.swift */; };
 		A9969D312A640BA400C59367 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D302A640BA400C59367 /* MapView.swift */; };
 		A9969D332A640BE400C59367 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D322A640BE400C59367 /* CircleButtonView.swift */; };
+		A9969D352A64161600C59367 /* BranchAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D342A64161600C59367 /* BranchAnnotation.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		A9969D2D2A63C53B00C59367 /* BranchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchCardView.swift; sourceTree = "<group>"; };
 		A9969D302A640BA400C59367 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A9969D322A640BE400C59367 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		A9969D342A64161600C59367 /* BranchAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchAnnotation.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			children = (
 				A9969D1C2A5FFF4800C59367 /* Branch.swift */,
 				A9969D242A62C83200C59367 /* AllowLocationModel.swift */,
+				A9969D342A64161600C59367 /* BranchAnnotation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				A9969D312A640BA400C59367 /* MapView.swift in Sources */,
 				A9969CE62A5B0ACF00C59367 /* PrivacyPolicyView.swift in Sources */,
 				A9FA3BA92A5879670076D776 /* Fonts.swift in Sources */,
+				A9969D352A64161600C59367 /* BranchAnnotation.swift in Sources */,
 				A9969D212A62BF0A00C59367 /* HomeViewModel.swift in Sources */,
 				A9FA3BB82A5882280076D776 /* AllowNotificationView.swift in Sources */,
 				A9969D232A62C3D400C59367 /* AllowNotificationViewModel.swift in Sources */,
