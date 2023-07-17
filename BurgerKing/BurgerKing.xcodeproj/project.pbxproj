@@ -24,6 +24,9 @@
 		A9969D312A640BA400C59367 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D302A640BA400C59367 /* MapView.swift */; };
 		A9969D332A640BE400C59367 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D322A640BE400C59367 /* CircleButtonView.swift */; };
 		A9969D352A64161600C59367 /* BranchAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D342A64161600C59367 /* BranchAnnotation.swift */; };
+		A9969D3C2A65486C00C59367 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D3B2A65486C00C59367 /* CustomButton.swift */; };
+		A9969D3E2A654A8F00C59367 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D3D2A654A8F00C59367 /* StartViewModel.swift */; };
+		A9969D412A65569D00C59367 /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D402A65569D00C59367 /* ViewHelpers.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -60,6 +63,9 @@
 		A9969D302A640BA400C59367 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A9969D322A640BE400C59367 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		A9969D342A64161600C59367 /* BranchAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchAnnotation.swift; sourceTree = "<group>"; };
+		A9969D3B2A65486C00C59367 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		A9969D3D2A654A8F00C59367 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		A9969D402A65569D00C59367 /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +140,22 @@
 			path = OrderComponents;
 			sourceTree = "<group>";
 		};
+		A9969D3A2A65484E00C59367 /* OnBoardingComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A9969D3B2A65486C00C59367 /* CustomButton.swift */,
+			);
+			path = OnBoardingComponents;
+			sourceTree = "<group>";
+		};
+		A9969D3F2A65568D00C59367 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A9969D402A65569D00C59367 /* ViewHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		A9FA3B7F2A56C6EB0076D776 = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +209,7 @@
 		A9FA3B9A2A586D8C0076D776 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				A9969D3D2A654A8F00C59367 /* StartViewModel.swift */,
 				A9969D222A62C3D400C59367 /* AllowNotificationViewModel.swift */,
 				A9969D1E2A62BE8300C59367 /* AllowLocationViewModel.swift */,
 				A9969D202A62BF0A00C59367 /* HomeViewModel.swift */,
@@ -216,6 +239,7 @@
 		A9FA3B9D2A586DAB0076D776 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				A9969D3F2A65568D00C59367 /* Helpers */,
 				A9969D132A5FF83800C59367 /* Location */,
 				A9FA3BA52A586E710076D776 /* FireStore */,
 				A9FA3BA42A586E640076D776 /* Authentication */,
@@ -323,6 +347,7 @@
 		A9FA3BC52A5883090076D776 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				A9969D3A2A65484E00C59367 /* OnBoardingComponents */,
 				A9969D2F2A640B7600C59367 /* OrderComponents */,
 				A9969D2C2A63C50800C59367 /* ProfileCompnents */,
 				A9969D2B2A63C4E700C59367 /* HomeComponents */,
@@ -409,6 +434,7 @@
 			files = (
 				A9FA3BBC2A5882550076D776 /* HomeView.swift in Sources */,
 				A9969D312A640BA400C59367 /* MapView.swift in Sources */,
+				A9969D3C2A65486C00C59367 /* CustomButton.swift in Sources */,
 				A9969CE62A5B0ACF00C59367 /* PrivacyPolicyView.swift in Sources */,
 				A9FA3BA92A5879670076D776 /* Fonts.swift in Sources */,
 				A9969D352A64161600C59367 /* BranchAnnotation.swift in Sources */,
@@ -419,6 +445,7 @@
 				A9969D152A5FF85200C59367 /* LocationManager.swift in Sources */,
 				A9969CE12A59C62900C59367 /* LaunchView.swift in Sources */,
 				A9969D2A2A62EA4300C59367 /* MainTabView.swift in Sources */,
+				A9969D412A65569D00C59367 /* ViewHelpers.swift in Sources */,
 				A9FA3BB32A5881300076D776 /* TestView.swift in Sources */,
 				A9969CE32A59C67400C59367 /* StartView.swift in Sources */,
 				A9969D1F2A62BE8300C59367 /* AllowLocationViewModel.swift in Sources */,
@@ -427,6 +454,7 @@
 				A9FA3BC02A58827E0076D776 /* OffersView.swift in Sources */,
 				A9969D2E2A63C53B00C59367 /* BranchCardView.swift in Sources */,
 				A9969D332A640BE400C59367 /* CircleButtonView.swift in Sources */,
+				A9969D3E2A654A8F00C59367 /* StartViewModel.swift in Sources */,
 				A9969D1D2A5FFF4800C59367 /* Branch.swift in Sources */,
 				A9FA3BA72A5879590076D776 /* Colors.swift in Sources */,
 				A9FA3BBA2A5882410076D776 /* AllowLocationView.swift in Sources */,
@@ -570,8 +598,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -603,8 +630,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

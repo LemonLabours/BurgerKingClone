@@ -5,6 +5,7 @@
 //  Created by Lama AL Yousef on 07/07/2023.
 import SwiftUI
 
+
 struct AllowLocationView: View {
     @EnvironmentObject private var locationViewModel: AllowLocationViewModel
     @State private var showPermissionAlert = false
@@ -22,33 +23,23 @@ struct AllowLocationView: View {
 
                         Image("location")
                             .resizable()
-                            .frame(width: geometry.size.width * (0.64), height: geometry.size.height * (0.32))
-                            .padding(.bottom, 78)
+                            .frame(width: geometry.size.width * 0.88, height: geometry.size.height * 0.48)
+
 
                         Text("Order at nearby \nrestaurants.")
                             .foregroundColor(Color.bkDarkBrown)
-                            .flame(font: .bold, size: 36)
+                            .flame(font: .bold, size: adaptiveTextSize(size: 32, max: 48))
                             .multilineTextAlignment(.center)
 
                         Text("We use your location to show \nnearby restaurants and let you \norder from them.")
-                            .foregroundColor(Color.bkDarkBrown)
-                            .font(.title2)
+                            .foregroundColor(Color.bkBrown)
+                            .flame(font: .sans, size: adaptiveTextSize(size: 20, max: 24))
                             .multilineTextAlignment(.center)
+                            .padding(.bottom, 16)
 
-                        Spacer()
-                            .frame(height: 10)
-
-                        Button(action: {
+                        CustomButton(title: "Turn on location", action: {
                             locationViewModel.requestLocationPermission()
-                        }) {
-                            Text("Turn on location")
-                                .flame(font: .regular, size: 32)
-                                .frame(width: geometry.size.width * 0.9, height: 72)
-                                .background(Color.bkRed)
-                                .foregroundColor(.white)
-                                .cornerRadius(22)
-                        }
-                        .padding(.bottom, 32)
+                        })
                         .disabled(locationViewModel.permissionStatus != .notDetermined)
                     }
                 }
@@ -81,6 +72,7 @@ struct AllowLocationView: View {
         }
     }
 
+
     private func openSettings() {
         guard let settingsURL = URL(string: UIApplication.openSettingsURLString) else {
             return
@@ -95,3 +87,6 @@ struct AllowLocationView_Previews: PreviewProvider {
             .environmentObject(AllowLocationViewModel())
     }
 }
+
+
+
