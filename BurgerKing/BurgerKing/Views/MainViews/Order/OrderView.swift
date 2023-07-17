@@ -10,8 +10,8 @@ import MapKit
 
 struct OrderView: View {
     @Binding var selectedTab: Int
-
-    @State private var isShowingBranches = false // Add a @State variable to control the visibility of branch cards
+    @StateObject private var locationManager = LocationManager()
+    @State private var isShowingBranches = false 
 
     var body: some View {
         ZStack(alignment: .top) {
@@ -65,8 +65,8 @@ struct OrderView: View {
                     if isShowingBranches {
                         ScrollView(.horizontal) {
                             HStack(spacing: 16) {
-                                ForEach(LocationManager.shared.nearestBranches) { branch in
-                                    BranchCardView(branch: branch)
+                                ForEach(locationManager.nearestBranches) { branch in
+                                    BranchCardView(branch: branch, userLocation: locationManager.userLocation)
                                 }
                             }
                             .padding(.horizontal, 16)

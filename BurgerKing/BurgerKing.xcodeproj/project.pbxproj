@@ -16,7 +16,6 @@
 		A9969D192A5FFEE600C59367 /* MapDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D182A5FFEE600C59367 /* MapDirectory.swift */; };
 		A9969D1D2A5FFF4800C59367 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D1C2A5FFF4800C59367 /* Branch.swift */; };
 		A9969D1F2A62BE8300C59367 /* AllowLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D1E2A62BE8300C59367 /* AllowLocationViewModel.swift */; };
-		A9969D212A62BF0A00C59367 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D202A62BF0A00C59367 /* HomeViewModel.swift */; };
 		A9969D232A62C3D400C59367 /* AllowNotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D222A62C3D400C59367 /* AllowNotificationViewModel.swift */; };
 		A9969D252A62C83200C59367 /* AllowLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D242A62C83200C59367 /* AllowLocationModel.swift */; };
 		A9969D2A2A62EA4300C59367 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D292A62EA4300C59367 /* MainTabView.swift */; };
@@ -55,7 +54,6 @@
 		A9969D182A5FFEE600C59367 /* MapDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDirectory.swift; sourceTree = "<group>"; };
 		A9969D1C2A5FFF4800C59367 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 		A9969D1E2A62BE8300C59367 /* AllowLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowLocationViewModel.swift; sourceTree = "<group>"; };
-		A9969D202A62BF0A00C59367 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		A9969D222A62C3D400C59367 /* AllowNotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowNotificationViewModel.swift; sourceTree = "<group>"; };
 		A9969D242A62C83200C59367 /* AllowLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowLocationModel.swift; sourceTree = "<group>"; };
 		A9969D292A62EA4300C59367 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -212,7 +210,6 @@
 				A9969D3D2A654A8F00C59367 /* StartViewModel.swift */,
 				A9969D222A62C3D400C59367 /* AllowNotificationViewModel.swift */,
 				A9969D1E2A62BE8300C59367 /* AllowLocationViewModel.swift */,
-				A9969D202A62BF0A00C59367 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -438,7 +435,6 @@
 				A9969CE62A5B0ACF00C59367 /* PrivacyPolicyView.swift in Sources */,
 				A9FA3BA92A5879670076D776 /* Fonts.swift in Sources */,
 				A9969D352A64161600C59367 /* BranchAnnotation.swift in Sources */,
-				A9969D212A62BF0A00C59367 /* HomeViewModel.swift in Sources */,
 				A9FA3BB82A5882280076D776 /* AllowNotificationView.swift in Sources */,
 				A9969D232A62C3D400C59367 /* AllowNotificationViewModel.swift in Sources */,
 				A9969D252A62C83200C59367 /* AllowLocationModel.swift in Sources */,

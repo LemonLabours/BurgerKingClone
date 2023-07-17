@@ -10,6 +10,7 @@ import CoreLocation
 import MapKit
 
 struct BKMapDirectory {
+    static let shared = BKMapDirectory() 
     let branches: [Branch] = {
         guard let jsonURL = Bundle.main.url(forResource: "bklocation", withExtension: ".json") else {
             fatalError("Unable to load json file")

@@ -9,7 +9,8 @@ import CoreLocation
 struct HomeView: View {
     @StateObject private var locationManager = LocationManager()
     @State private var isShowingBranches = false
-    @Binding var selectedTab: Int // Change the type to Binding<Int>
+    @State private var isLoading = true
+    @Binding var selectedTab: Int
 
     var body: some View {
         GeometryReader { geometry in
@@ -18,72 +19,75 @@ struct HomeView: View {
                     Color.bkDarkBG
                         .ignoresSafeArea()
 
-
-                    RoundedRectangle(cornerRadius: 8)
+                    Rectangle()
                         .foregroundColor(.bkDarkBrown)
-                        .frame(height: 300)
+                        .frame(height: geometry.size.height * 0.45)
                         .edgesIgnoringSafeArea(.top)
 
                     VStack(spacing: 0) {
                         Image("home")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(height: 260)
-                            .padding(.vertical, 60)
-                        Spacer()
+                            .frame(height: geometry.size.height * 0.35)
+                            .offset(y: geometry.size.height * 0.16)
+
                         Button(action: {
-                            selectedTab = 1 
+                            selectedTab = 1
                         }) {
                             Text("Order now!")
-                                .flame(font: .regular, size: 32)
-                                .frame(width: geometry.size.width * 0.8, height: 72)
+                                .flame(font: .regular, size: adaptiveTextSize(size: 24, max: 48))
+                                .frame(width: geometry.size.width * 0.8, height: geometry.size.height * 0.09)
                                 .background(Color.bkRed)
                                 .foregroundColor(.bkBG)
-                                .cornerRadius(16)
+                                .cornerRadius(8)
                         }
-                        .padding(.bottom, 32)
+                        .padding(.bottom, geometry.size.height * 0.04)
+                        .padding(.top, geometry.size.height * 0.26)
 
-                        // Bottom Half
-                        VStack(spacing: 0) {
-                            HStack {
-                                Text("Locations")
-                                    .flame(font: .bold, size: 32)
-                                    .foregroundColor(.bkDarkBrown)
-                                Spacer()
-                                Button(action: {
-                                    selectedTab = 1
-                                }) {
-                                    Text("View all")
-                                        .font(.title3)
-                                        .bold()
-                                        .foregroundColor(.bkRed)
-                                }
-                            }
-                            .padding(20)
-
-                            if isShowingBranches {
-                                ScrollView(.horizontal) {
-                                    HStack(spacing: 16) {
-                                        ForEach(locationManager.nearestBranches) { branch in
-                                            BranchCardView(branch: branch)
-                                        }
-                                    }
-                                    .padding(.horizontal, 16)
-                                    .padding(.bottom, 16)
-                                }
-                            }
+                        HStack(spacing: geometry.size.width * 0.05) {
+                            Text("Locations")
+                                .flame(font: .bold, size: adaptiveTextSize(size: 24, max: 40))
+                                .foregroundColor(.bkDarkBrown)
                             Spacer()
-                        }.background(Color.bkBG)
+                            Button(action: {
+                                selectedTab = 1
+                            }) {
+                                Text("View all")
+                                    .font(.subheadline)
+                                    .bold()
+                                    .foregroundColor(.bkRed)
+                            }
+                        }
+                        .padding(.horizontal, geometry.size.width * 0.05
+                            )
+                        .padding(.vertical, geometry.size.width * 0.02
+                            )
+                        .background(Color.bkBG)
 
+                        ScrollView(.horizontal) {
+                            HStack(spacing: geometry.size.width * 0.04) {
+                                ForEach(locationManager.nearestBranches) { branch in
+                                    BranchCardView(branch: branch, userLocation: locationManager.userLocation)
+                                }
+                            }
+                            .padding(.horizontal, geometry.size.width * 0.04)
+                            .padding(.bottom, geometry.size.height * 0.04)
+                        }
+                        .background(Color.bkBG)
                         .alignmentGuide(.bottom) { d in d[.bottom] }
+                        .onAppear {
+                            if isLoading {
+                                locationManager.requestLocationPermission()
+                                locationManager.fetchNearestBranches()
+                                isLoading = false
+                                isShowingBranches = true
+                            }
+                        }
+
+                        Spacer()
                     }
                 }
                 .navigationBarBackButtonHidden(true)
-                .onAppear {
-                    locationManager.requestLocationPermission()
-                    locationManager.fetchNearestBranches()
-                    isShowingBranches = true
-                }
             }
         }
     }
