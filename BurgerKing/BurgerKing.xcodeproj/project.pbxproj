@@ -26,6 +26,13 @@
 		A9969D3C2A65486C00C59367 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D3B2A65486C00C59367 /* CustomButton.swift */; };
 		A9969D3E2A654A8F00C59367 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D3D2A654A8F00C59367 /* StartViewModel.swift */; };
 		A9969D412A65569D00C59367 /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D402A65569D00C59367 /* ViewHelpers.swift */; };
+		A9969D432A671D3D00C59367 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D422A671D3D00C59367 /* MenuView.swift */; };
+		A9969D452A671EC900C59367 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D442A671EC900C59367 /* SettingsView.swift */; };
+		A9969D472A671EF400C59367 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D462A671EF400C59367 /* SignInView.swift */; };
+		A9969D492A671F1500C59367 /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D482A671F1500C59367 /* FollowView.swift */; };
+		A9969D4B2A671F2E00C59367 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D4A2A671F2E00C59367 /* ContactView.swift */; };
+		A9969D4D2A671F6C00C59367 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D4C2A671F6C00C59367 /* TermsOfServiceView.swift */; };
+		A9969D4F2A671F9500C59367 /* AcknowledgementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D4E2A671F9500C59367 /* AcknowledgementsView.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -64,6 +71,13 @@
 		A9969D3B2A65486C00C59367 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		A9969D3D2A654A8F00C59367 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
 		A9969D402A65569D00C59367 /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
+		A9969D422A671D3D00C59367 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A9969D442A671EC900C59367 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A9969D462A671EF400C59367 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A9969D482A671F1500C59367 /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
+		A9969D4A2A671F2E00C59367 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		A9969D4C2A671F6C00C59367 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		A9969D4E2A671F9500C59367 /* AcknowledgementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsView.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +139,12 @@
 			isa = PBXGroup;
 			children = (
 				A9969CE52A5B0ACF00C59367 /* PrivacyPolicyView.swift */,
+				A9969D442A671EC900C59367 /* SettingsView.swift */,
+				A9969D462A671EF400C59367 /* SignInView.swift */,
+				A9969D482A671F1500C59367 /* FollowView.swift */,
+				A9969D4A2A671F2E00C59367 /* ContactView.swift */,
+				A9969D4C2A671F6C00C59367 /* TermsOfServiceView.swift */,
+				A9969D4E2A671F9500C59367 /* AcknowledgementsView.swift */,
 			);
 			path = ProfileCompnents;
 			sourceTree = "<group>";
@@ -134,6 +154,7 @@
 			children = (
 				A9969D302A640BA400C59367 /* MapView.swift */,
 				A9969D322A640BE400C59367 /* CircleButtonView.swift */,
+				A9969D422A671D3D00C59367 /* MenuView.swift */,
 			);
 			path = OrderComponents;
 			sourceTree = "<group>";
@@ -430,7 +451,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9FA3BBC2A5882550076D776 /* HomeView.swift in Sources */,
+				A9969D4B2A671F2E00C59367 /* ContactView.swift in Sources */,
 				A9969D312A640BA400C59367 /* MapView.swift in Sources */,
+				A9969D4D2A671F6C00C59367 /* TermsOfServiceView.swift in Sources */,
 				A9969D3C2A65486C00C59367 /* CustomButton.swift in Sources */,
 				A9969CE62A5B0ACF00C59367 /* PrivacyPolicyView.swift in Sources */,
 				A9FA3BA92A5879670076D776 /* Fonts.swift in Sources */,
@@ -444,19 +467,24 @@
 				A9969D412A65569D00C59367 /* ViewHelpers.swift in Sources */,
 				A9FA3BB32A5881300076D776 /* TestView.swift in Sources */,
 				A9969CE32A59C67400C59367 /* StartView.swift in Sources */,
+				A9969D452A671EC900C59367 /* SettingsView.swift in Sources */,
 				A9969D1F2A62BE8300C59367 /* AllowLocationViewModel.swift in Sources */,
 				A9FA3BC22A5882900076D776 /* ProfileView.swift in Sources */,
+				A9969D432A671D3D00C59367 /* MenuView.swift in Sources */,
 				A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */,
 				A9FA3BC02A58827E0076D776 /* OffersView.swift in Sources */,
 				A9969D2E2A63C53B00C59367 /* BranchCardView.swift in Sources */,
 				A9969D332A640BE400C59367 /* CircleButtonView.swift in Sources */,
 				A9969D3E2A654A8F00C59367 /* StartViewModel.swift in Sources */,
+				A9969D4F2A671F9500C59367 /* AcknowledgementsView.swift in Sources */,
 				A9969D1D2A5FFF4800C59367 /* Branch.swift in Sources */,
+				A9969D492A671F1500C59367 /* FollowView.swift in Sources */,
 				A9FA3BA72A5879590076D776 /* Colors.swift in Sources */,
 				A9FA3BBA2A5882410076D776 /* AllowLocationView.swift in Sources */,
 				A9969D192A5FFEE600C59367 /* MapDirectory.swift in Sources */,
 				A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */,
 				A9FA3BBE2A58826C0076D776 /* OrderView.swift in Sources */,
+				A9969D472A671EF400C59367 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
