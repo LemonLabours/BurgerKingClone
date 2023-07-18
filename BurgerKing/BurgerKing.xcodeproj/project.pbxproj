@@ -33,6 +33,7 @@
 		A9969D4B2A671F2E00C59367 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D4A2A671F2E00C59367 /* ContactView.swift */; };
 		A9969D4D2A671F6C00C59367 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D4C2A671F6C00C59367 /* TermsOfServiceView.swift */; };
 		A9969D4F2A671F9500C59367 /* AcknowledgementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D4E2A671F9500C59367 /* AcknowledgementsView.swift */; };
+		A9969D522A67205A00C59367 /* AuthSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D512A67205A00C59367 /* AuthSheetView.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -78,6 +79,7 @@
 		A9969D4A2A671F2E00C59367 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		A9969D4C2A671F6C00C59367 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
 		A9969D4E2A671F9500C59367 /* AcknowledgementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsView.swift; sourceTree = "<group>"; };
+		A9969D512A67205A00C59367 /* AuthSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSheetView.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -173,6 +175,14 @@
 				A9969D402A65569D00C59367 /* ViewHelpers.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A9969D502A67201D00C59367 /* OffersComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A9969D512A67205A00C59367 /* AuthSheetView.swift */,
+			);
+			path = OffersComponents;
 			sourceTree = "<group>";
 		};
 		A9FA3B7F2A56C6EB0076D776 = {
@@ -367,8 +377,9 @@
 			children = (
 				A9969D3A2A65484E00C59367 /* OnBoardingComponents */,
 				A9969D2F2A640B7600C59367 /* OrderComponents */,
-				A9969D2C2A63C50800C59367 /* ProfileCompnents */,
 				A9969D2B2A63C4E700C59367 /* HomeComponents */,
+				A9969D2C2A63C50800C59367 /* ProfileCompnents */,
+				A9969D502A67201D00C59367 /* OffersComponents */,
 				A9969D262A62E97C00C59367 /* TabBar */,
 				A9FA3BB12A5881180076D776 /* Test */,
 			);
@@ -450,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9969D522A67205A00C59367 /* AuthSheetView.swift in Sources */,
 				A9FA3BBC2A5882550076D776 /* HomeView.swift in Sources */,
 				A9969D4B2A671F2E00C59367 /* ContactView.swift in Sources */,
 				A9969D312A640BA400C59367 /* MapView.swift in Sources */,
