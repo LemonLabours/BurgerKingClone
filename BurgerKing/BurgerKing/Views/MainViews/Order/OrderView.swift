@@ -11,7 +11,7 @@ import MapKit
 struct OrderView: View {
     @Binding var selectedTab: Int
     @StateObject private var locationManager = LocationManager()
-    @State private var isShowingBranches = false 
+    @State private var isShowingBranches = false
 
     var body: some View {
         ZStack(alignment: .top) {
@@ -21,20 +21,19 @@ struct OrderView: View {
             VStack {
                 HStack {
                     Text("Current Location")
-                        .font(.title2)
+                        .font(.title3)
                         .foregroundColor(.bkDarkBrown)
                     Image(systemName: "chevron.down")
                         .foregroundColor(.bkDarkBrown)
 
-                    Spacer()
+                    Spacer(minLength: 0)
                     Image(systemName: "list.bullet")
                         .foregroundColor(.bkDarkBrown)
                         .font(.title)
-
                 }
                 .bold()
-                .padding(20)
-                .padding(.horizontal, 10)
+                .padding(.horizontal, 16)
+            
 
                 HStack(spacing: 16) {
                     Button(action: {
@@ -53,31 +52,33 @@ struct OrderView: View {
 
                 if let userCoordinate = LocationManager.shared.userLocation?.coordinate {
                     MapView(coordinate: userCoordinate, branches: LocationManager.shared.branchLocations) // Pass the entire branchLocations array
-                        .frame(height: 620)
+                        .frame(height: 440)
                         .padding(.bottom, 16)
                 }
             }
 
-
-            VStack{
+            VStack {
                 Spacer()
-                ZStack {
-                    if isShowingBranches {
-                        ScrollView(.horizontal) {
-                            HStack(spacing: 16) {
-                                ForEach(locationManager.nearestBranches) { branch in
-                                    BranchCardView(branch: branch, userLocation: locationManager.userLocation)
-                                }
+                ScrollView(.horizontal) {
+                    ScrollViewReader { proxy in
+                        HStack(spacing: 16) {
+                            ForEach(locationManager.nearestBranches) { branch in
+                                BranchCardView(branch: branch, userLocation: locationManager.userLocation)
                             }
-                            .padding(.horizontal, 16)
-                            .padding(.bottom, 16)
                         }
-                        .frame(height: 200)
-                        .cornerRadius(16)
-                        .shadow(radius: 5)
                         .padding(.horizontal, 16)
+                        .padding(.bottom, 16)
+                        .onChange(of: isShowingBranches) { newValue in
+                            withAnimation {
+                                proxy.scrollTo(newValue ? 0 : 1)
+                            }
+                        }
                     }
                 }
+                .frame(height: 180)
+                .cornerRadius(16)
+                .shadow(radius: 5)
+                .padding(.horizontal, 16)
                 .offset(y: isShowingBranches ? -10 : 10) // Adjust the offset to control the floating behavior
             }
 
@@ -91,10 +92,9 @@ struct OrderView: View {
     }
 }
 
-
-
 struct OrderView_Previews: PreviewProvider {
     static var previews: some View {
         OrderView(selectedTab: .constant(0))
     }
 }
+
