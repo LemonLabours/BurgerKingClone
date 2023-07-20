@@ -37,6 +37,10 @@
 		A9969D542A69235400C59367 /* MapViewWithRecenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D532A69235400C59367 /* MapViewWithRecenterButton.swift */; };
 		A9969D562A6928C000C59367 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D552A6928C000C59367 /* CustomNavigationBar.swift */; };
 		A9969D582A6944CC00C59367 /* BranchInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D572A6944CC00C59367 /* BranchInfoView.swift */; };
+		A9969D5A2A69759C00C59367 /* FaceBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D592A69759C00C59367 /* FaceBookView.swift */; };
+		A9969D5C2A6975B000C59367 /* TwitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D5B2A6975B000C59367 /* TwitterView.swift */; };
+		A9969D5E2A6975C100C59367 /* YoutubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D5D2A6975C100C59367 /* YoutubeView.swift */; };
+		A9969D622A6975F200C59367 /* InstagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D612A6975F200C59367 /* InstagramView.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -86,6 +90,10 @@
 		A9969D532A69235400C59367 /* MapViewWithRecenterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewWithRecenterButton.swift; sourceTree = "<group>"; };
 		A9969D552A6928C000C59367 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		A9969D572A6944CC00C59367 /* BranchInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchInfoView.swift; sourceTree = "<group>"; };
+		A9969D592A69759C00C59367 /* FaceBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookView.swift; sourceTree = "<group>"; };
+		A9969D5B2A6975B000C59367 /* TwitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterView.swift; sourceTree = "<group>"; };
+		A9969D5D2A6975C100C59367 /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeView.swift; sourceTree = "<group>"; };
+		A9969D612A6975F200C59367 /* InstagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramView.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +161,10 @@
 				A9969D4A2A671F2E00C59367 /* ContactView.swift */,
 				A9969D4C2A671F6C00C59367 /* TermsOfServiceView.swift */,
 				A9969D4E2A671F9500C59367 /* AcknowledgementsView.swift */,
+				A9969D592A69759C00C59367 /* FaceBookView.swift */,
+				A9969D5B2A6975B000C59367 /* TwitterView.swift */,
+				A9969D5D2A6975C100C59367 /* YoutubeView.swift */,
+				A9969D612A6975F200C59367 /* InstagramView.swift */,
 			);
 			path = ProfileCompnents;
 			sourceTree = "<group>";
@@ -472,18 +484,22 @@
 			files = (
 				A9969D522A67205A00C59367 /* AuthSheetView.swift in Sources */,
 				A9FA3BBC2A5882550076D776 /* HomeView.swift in Sources */,
+				A9969D5A2A69759C00C59367 /* FaceBookView.swift in Sources */,
 				A9969D4B2A671F2E00C59367 /* ContactView.swift in Sources */,
 				A9969D312A640BA400C59367 /* MapView.swift in Sources */,
 				A9969D4D2A671F6C00C59367 /* TermsOfServiceView.swift in Sources */,
+				A9969D5C2A6975B000C59367 /* TwitterView.swift in Sources */,
 				A9969D582A6944CC00C59367 /* BranchInfoView.swift in Sources */,
 				A9969D3C2A65486C00C59367 /* CustomButton.swift in Sources */,
 				A9969CE62A5B0ACF00C59367 /* PrivacyPolicyView.swift in Sources */,
 				A9FA3BA92A5879670076D776 /* Fonts.swift in Sources */,
 				A9969D352A64161600C59367 /* BranchAnnotation.swift in Sources */,
+				A9969D622A6975F200C59367 /* InstagramView.swift in Sources */,
 				A9FA3BB82A5882280076D776 /* AllowNotificationView.swift in Sources */,
 				A9969D232A62C3D400C59367 /* AllowNotificationViewModel.swift in Sources */,
 				A9969D252A62C83200C59367 /* AllowLocationModel.swift in Sources */,
 				A9969D152A5FF85200C59367 /* LocationManager.swift in Sources */,
+				A9969D5E2A6975C100C59367 /* YoutubeView.swift in Sources */,
 				A9969CE12A59C62900C59367 /* LaunchView.swift in Sources */,
 				A9969D2A2A62EA4300C59367 /* MainTabView.swift in Sources */,
 				A9969D412A65569D00C59367 /* ViewHelpers.swift in Sources */,
