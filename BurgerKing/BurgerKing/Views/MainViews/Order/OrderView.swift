@@ -12,6 +12,7 @@ struct OrderView: View {
     @Binding var selectedTab: Int
     @StateObject private var locationManager = LocationManager()
     @State private var isShowingBranches = false
+    @State private var isListBulletClicked = false // Add a new state variable
 
     // Add a new non-optional property to store the user location coordinate
     @State private var userCoordinate: CLLocationCoordinate2D?
@@ -34,6 +35,9 @@ struct OrderView: View {
                         Image(systemName: "list.bullet")
                             .foregroundColor(.bkDarkBrown)
                             .font(.title)
+                            .onTapGesture {
+                                isListBulletClicked.toggle()
+                            }
                     }
                     .bold()
                     .padding(.all, 16)
@@ -43,7 +47,6 @@ struct OrderView: View {
                             print("Takeout is tapped")
                         })
 
-                        // Use the NavigationLink to navigate to the MenuView
                         NavigationLink(destination: MenuView()) {
                             CircleButtonView(imageName: "scooter", buttonText: "Delivery", action: {
                                 selectedTab = 1
@@ -51,39 +54,53 @@ struct OrderView: View {
                         }
 
                         Spacer()
-                    }.padding(.horizontal, 16)
+                    }
+                    .padding(.horizontal, 16)
 
-                    // Use MapViewWithRecenterButton with the new non-optional coordinate
-                    MapViewWithRecenterButton(coordinate: $userCoordinate, branches: locationManager.nearestBranches)
-                        .frame(height: 440)
-                        .padding(.bottom, 16)
-                }
+                    if isListBulletClicked {
+                        ScrollView{
+                            VStack {
 
-                VStack {
-                    Spacer()
-                    ScrollView(.horizontal) {
-                        ScrollViewReader { proxy in
-                            HStack(spacing: 16) {
-                                ForEach(locationManager.nearestBranches) { branch in
-                                    BranchCardView(branch: branch, userLocation: locationManager.userLocation)
-                                }
-                            }
-                            .padding(.horizontal, 16)
-                            .padding(.bottom, 16)
-                            .onChange(of: isShowingBranches) { newValue in
-                                withAnimation {
-                                    proxy.scrollTo(newValue ? 0 : 1)
+                                ForEach(locationManager.branchLocations) { branch in
+                                    BranchInfoView(branch: branch)
                                 }
                             }
                         }
+
+                    } else {
+                        // Show the MapView when the list bullet is not clicked
+                        MapViewWithRecenterButton(coordinate: $userCoordinate, branches: locationManager.nearestBranches)
+                            .frame(height: 440)
+                            .padding(.bottom, 16)
                     }
-                    .frame(height: 180)
-                    .cornerRadius(16)
-                    .shadow(radius: 5)
-                    .padding(.horizontal, 16)
-                    .offset(y: isShowingBranches ? -10 : 10) // Adjust the offset to control the floating behavior
                 }
 
+                if isShowingBranches && !isListBulletClicked { // Show the floating horizontal card view only when isShowingBranches is true and isListBulletClicked is false
+                    VStack {
+                        Spacer()
+                        ScrollView(.horizontal) {
+                            ScrollViewReader { proxy in
+                                HStack(spacing: 16) {
+                                    ForEach(locationManager.nearestBranches) { branch in
+                                        BranchCardView(branch: branch, userLocation: locationManager.userLocation)
+                                    }
+                                }
+                                .padding(.horizontal, 16)
+                                .padding(.bottom, 16)
+                                .onChange(of: isShowingBranches) { newValue in
+                                    withAnimation {
+                                        proxy.scrollTo(newValue ? 0 : 1)
+                                    }
+                                }
+                            }
+                        }
+                        .frame(height: 180)
+                        .cornerRadius(16)
+                        .shadow(radius: 1)
+                        .padding(.horizontal, 16)
+                        .offset(y: isShowingBranches ? -10 : 10)
+                    }
+                }
             }
             .navigationBarBackButtonHidden(true)
             .onAppear {
@@ -91,12 +108,12 @@ struct OrderView: View {
                 LocationManager.shared.fetchNearestBranches()
                 isShowingBranches = true
 
-                // Assign the user location coordinate to the new non-optional property
                 userCoordinate = locationManager.userLocation?.coordinate
             }
         }
     }
 }
+
 
 
 struct OrderView_Previews: PreviewProvider {

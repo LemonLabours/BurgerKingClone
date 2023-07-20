@@ -29,7 +29,7 @@ struct AcknowledgementsView: View {
                     .padding()
 
                     Text("card.io\nsiOS SDK uses code from the following libraries with gratitude!:\nWillow Garage's OpenCV\nEigen\nErica Sadun's iPhone Developer's\nCookbook Code Samples and uidevice-extension categories\nGeorg Kitz's UIDevice-with-Uniqueldentifier-for-iOS-5\nTomás Znamenácek's Lambda Alert\nJosh Bleecher Snyder's TLCommon\nOpenstack")
-                        
+
                         .foregroundColor(Color.bkGray)
                     HStack {
                         Text("1.1 Eigen")
