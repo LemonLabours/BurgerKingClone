@@ -8,11 +8,35 @@
 import SwiftUI
 
 struct FollowView: View {
+    @Environment(\.presentationMode) var presentationMode // Get the presentationMode
     var body: some View {
-        Text("Follow")
+        
+        ZStack{
+            Color.bkDarkBG
+                .ignoresSafeArea()
+            
+            
+            VStack {
+                CustomNavigationBar(title: "Follow BK", presentationMode: presentationMode)
+                Spacer()
+                
+                VStack{
+                    HStack{
+                        // Image()
+                        Text()
+                        Button{
+                            
+                        }label: {
+                            Image()
+                        }
+                    }
+                    
+                    
+                }
+            }
+        }
     }
 }
-
 struct FollowView_Previews: PreviewProvider {
     static var previews: some View {
         FollowView()
