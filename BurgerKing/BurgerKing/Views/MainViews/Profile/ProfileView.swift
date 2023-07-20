@@ -3,10 +3,14 @@
 //  BurgerKing
 //
 //  Created by Lama AL Yousef on 07/07/2023.
-
 import SwiftUI
 
 struct ProfileView: View {
+    @State private var isShowingSettingsView = false
+    @State private var isShowingFollowView = false
+    @State private var isShowingContactView = false
+    @State private var isShowingAuthenticationSheet = false
+
     var body: some View {
         ZStack {
             Color.bkDarkBG
@@ -15,48 +19,41 @@ struct ProfileView: View {
             VStack(spacing: 0) {
                 // Header
                 HeaderView()
-                
 
-
-                ZStack{
-
+                ZStack {
                     VStack(spacing: 32) {
-                        HStack {
-                            Image(systemName: "gearshape.fill")
-                                .font(.title2)
-                                .foregroundColor(.bkDarkBrown)
-                            Text("Settings")
-                                .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 24))
-                                .foregroundColor(.bkDarkBrown)
-                            Spacer()
-
-                            Button(action: {
-
-                            }) {
+                        NavigationLink(destination: SettingsView(), isActive: $isShowingSettingsView) {
+                            HStack {
+                                Image(systemName: "gearshape.fill")
+                                    .font(.title2)
+                                    .foregroundColor(.bkDarkBrown)
+                                Text("Settings")
+                                    .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 24))
+                                    .foregroundColor(.bkDarkBrown)
+                                Spacer()
                                 Image(systemName: "chevron.right")
                                     .foregroundColor(Color.bkBrown)
                                     .font(.subheadline)
                             }
                         }
 
-                        HStack {
-                            Image(systemName: "door.left.hand.open")
-                                .font(.title2)
-                                .foregroundColor(.bkDarkBrown)
+                        Button(action: {
+                            isShowingAuthenticationSheet.toggle()
+                        }) {
                             HStack {
-                                Text("Create Account")
-                                    .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 24))
-                                Circle()
-                                    .frame(width: 8, height: 8)
-                                Text("Sign in")
-                                    .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 24))
-                            }
-                            .foregroundColor(.bkDarkBrown)
-                            Spacer()
-
-                            Button(action: {
-
-                            }) {
+                                Image(systemName: "door.left.hand.open")
+                                    .font(.title2)
+                                    .foregroundColor(.bkDarkBrown)
+                                HStack {
+                                    Text("Create Account")
+                                        .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 24))
+                                    Circle()
+                                        .frame(width: 8, height: 8)
+                                    Text("Sign in")
+                                        .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 24))
+                                }
+                                .foregroundColor(.bkDarkBrown)
+                                Spacer()
                                 Image(systemName: "chevron.right")
                                     .foregroundColor(Color.bkBrown)
                                     .font(.subheadline)
@@ -66,53 +63,68 @@ struct ProfileView: View {
                     .padding(.horizontal, 24)
                     .padding(.vertical, 16)
                 }
-                    .background(Color.bkBG)
+                .background(Color.bkBG)
 
-                ZStack{
-                    VStack (spacing:32){
-                        HStack{
+                ZStack {
+                    VStack(spacing: 40) {
+                        HStack {
                             Text("Connect")
                                 .foregroundColor(Color.bkDarkBrown)
                                 .flame(font: .bold, size: adaptiveTextSize(size: 28, max: 48))
                                 .padding(.horizontal, 24)
-                                .padding(.bottom, 12)
                             Spacer()
                         }
-                        HStack{
-                            Text("Follow BK")
-                                .foregroundColor(Color.bkDarkBrown)
-                                .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
-                            Spacer()
-                            Button{
-                            }label: {
-                                Image(systemName: "chevron.right")
-                                    .foregroundColor(Color.bkBrown)
-                                    .font(.subheadline)
+                        VStack(spacing: 32) {
+                            Button(action: {
+                                isShowingFollowView.toggle()
+                            }) {
+                                HStack {
+                                    Text("Follow BK")
+                                        .foregroundColor(Color.bkDarkBrown)
+                                        .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
+                                    Spacer()
+                                    Image(systemName: "chevron.right")
+                                        .foregroundColor(Color.bkBrown)
+                                        .font(.subheadline)
+                                }
                             }
-                        } .padding(.horizontal, 24)
 
-                        HStack{
-                            Text("Contact BK")
-                                .foregroundColor(Color.bkDarkBrown)
-                                .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
-                            Spacer()
-                            Button{
-                            }label: {
-                                Image(systemName: "chevron.right")
-                                    .foregroundColor(Color.bkBrown)
-                                    .font(.subheadline)
+                            Button(action: {
+                                isShowingContactView.toggle()
+                            }) {
+                                HStack {
+                                    Text("Contact BK")
+                                        .foregroundColor(Color.bkDarkBrown)
+                                        .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
+                                    Spacer()
+                                    Image(systemName: "chevron.right")
+                                        .foregroundColor(Color.bkBrown)
+                                        .font(.subheadline)
+                                }
                             }
-                        } .padding(.horizontal, 24)
-                    }  .padding(.vertical, 16)
-
-                } .background(Color.bkBG)
-                    .padding(.vertical, 12)
-
-
-
+                        }
+                        .padding(.horizontal)
+                    }
+                    .padding(.vertical, 16)
+                    .padding(.bottom , 4)
+                }
+                .background(Color.bkBG)
+                .padding(.vertical, 12)
 
                 Spacer()
             }
+        }
+        .sheet(isPresented: $isShowingAuthenticationSheet) {
+            AuthenticationSheet()
+        }
+        .fullScreenCover(isPresented: $isShowingSettingsView) {
+            SettingsView()
+        }
+        .fullScreenCover(isPresented: $isShowingFollowView) {
+            FollowView()
+        }
+        .fullScreenCover(isPresented: $isShowingContactView) {
+            ContactView()
         }
     }
 }
@@ -129,11 +141,19 @@ struct HeaderView: View {
                 Text("Profile")
                     .foregroundColor(Color.bkDarkBrown)
                     .flame(font: .bold, size: adaptiveTextSize(size: 28, max: 48))
-                    .padding(.horizontal,24)
+                    .padding(.horizontal, 24)
                 Spacer()
             }
         }
         .frame(height: 56) // Set the height of the header
+    }
+}
+
+
+
+struct AuthenticationSheet: View {
+    var body: some View {
+        Text("Authentication Sheet")
     }
 }
 
