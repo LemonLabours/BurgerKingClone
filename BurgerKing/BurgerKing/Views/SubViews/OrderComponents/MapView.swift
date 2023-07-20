@@ -3,7 +3,7 @@
 //  BurgerKing
 //
 //  Created by Lama AL Yousef on 16/07/2023.
-//
+
 import SwiftUI
 import MapKit
 
@@ -11,25 +11,31 @@ struct MapView: UIViewRepresentable {
     var coordinate: CLLocationCoordinate2D?
     var branches: [Branch]
 
+    @State private var mapCenterCoordinate: CLLocationCoordinate2D?
+
     func makeUIView(context: Context) -> MKMapView {
-        MKMapView(frame: .zero)
+        let mapView = MKMapView(frame: .zero)
+        mapView.showsUserLocation = true
+        mapView.delegate = context.coordinator
+        return mapView
     }
 
     func updateUIView(_ uiView: MKMapView, context: Context) {
-        uiView.delegate = context.coordinator
-        if let coordinate = coordinate {
+        // Update the map center when the coordinate changes
+        if let coordinate = coordinate, coordinate != mapCenterCoordinate {
             let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
             let region = MKCoordinateRegion(center: coordinate, span: span)
-            uiView.setRegion(region, animated: true)
+            uiView.setRegion(region, animated: false)
+            mapCenterCoordinate = coordinate
+        }
 
-            // Remove existing annotations before adding new ones
-            uiView.removeAnnotations(uiView.annotations)
+        // Remove existing annotations before adding new ones
+        uiView.removeAnnotations(uiView.annotations)
 
-            // Add annotations for each branch
-            for branch in branches {
-                let annotation = BranchAnnotation(title: branch.name, subtitle: branch.address, coordinate: CLLocationCoordinate2D(latitude: branch.latitude, longitude: branch.longitude))
-                uiView.addAnnotation(annotation)
-            }
+        // Add annotations for each branch
+        for branch in branches {
+            let annotation = BranchAnnotation(title: branch.name, subtitle: branch.address, coordinate: CLLocationCoordinate2D(latitude: branch.latitude, longitude: branch.longitude))
+            uiView.addAnnotation(annotation)
         }
     }
 
@@ -60,11 +66,18 @@ struct MapView: UIViewRepresentable {
                 annotationView?.annotation = annotation
             }
 
-            annotationView?.glyphText = "🍔" 
+            annotationView?.glyphText = "🍔"
             annotationView?.markerTintColor = .white
             annotationView?.glyphTintColor = .black
             annotationView?.canShowCallout = true
             return annotationView
         }
+    }
+}
+
+
+extension CLLocationCoordinate2D: Equatable {
+    public static func == (lhs: CLLocationCoordinate2D, rhs: CLLocationCoordinate2D) -> Bool {
+        return lhs.latitude == rhs.latitude && lhs.longitude == rhs.longitude
     }
 }

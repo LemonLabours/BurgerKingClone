@@ -34,6 +34,7 @@
 		A9969D4D2A671F6C00C59367 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D4C2A671F6C00C59367 /* TermsOfServiceView.swift */; };
 		A9969D4F2A671F9500C59367 /* AcknowledgementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D4E2A671F9500C59367 /* AcknowledgementsView.swift */; };
 		A9969D522A67205A00C59367 /* AuthSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D512A67205A00C59367 /* AuthSheetView.swift */; };
+		A9969D542A69235400C59367 /* MapViewWithRecenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D532A69235400C59367 /* MapViewWithRecenterButton.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -80,6 +81,7 @@
 		A9969D4C2A671F6C00C59367 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
 		A9969D4E2A671F9500C59367 /* AcknowledgementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsView.swift; sourceTree = "<group>"; };
 		A9969D512A67205A00C59367 /* AuthSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSheetView.swift; sourceTree = "<group>"; };
+		A9969D532A69235400C59367 /* MapViewWithRecenterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewWithRecenterButton.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				A9969D302A640BA400C59367 /* MapView.swift */,
+				A9969D532A69235400C59367 /* MapViewWithRecenterButton.swift */,
 				A9969D322A640BE400C59367 /* CircleButtonView.swift */,
 				A9969D422A671D3D00C59367 /* MenuView.swift */,
 			);
@@ -495,6 +498,7 @@
 				A9FA3BBA2A5882410076D776 /* AllowLocationView.swift in Sources */,
 				A9969D192A5FFEE600C59367 /* MapDirectory.swift in Sources */,
 				A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */,
+				A9969D542A69235400C59367 /* MapViewWithRecenterButton.swift in Sources */,
 				A9FA3BBE2A58826C0076D776 /* OrderView.swift in Sources */,
 				A9969D472A671EF400C59367 /* SignInView.swift in Sources */,
 			);
