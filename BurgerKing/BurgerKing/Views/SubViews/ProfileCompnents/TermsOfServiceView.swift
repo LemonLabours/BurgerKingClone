@@ -7,9 +7,21 @@
 
 import SwiftUI
 
+
+
 struct TermsOfServiceView: View {
+    @Environment(\.presentationMode) var presentationMode // Get the presentationMode
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.bkBG
+                .ignoresSafeArea()
+            VStack {
+                CustomNavigationBar(title: "Terms Of Service", presentationMode: presentationMode) // Pass the presentationMode
+
+                WebView(url: URL(string: "https://www.burgerking.com.sa/terms-of-use/")!)
+            }
+        }.navigationBarBackButtonHidden()
     }
 }
 
