@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import CoreLocation
+import UserNotifications
 
 struct SettingsView: View {
     @Environment(\.presentationMode) var presentationMode // Get the presentationMode
+    @State private var isShowingTermsOfServiceSheet = false
+    @State private var isShowingPrivacyPolicySheet = false
+    @State private var isShowingAcknowledgementsSheet = false
 
     var body: some View {
         ZStack {
@@ -17,102 +22,146 @@ struct SettingsView: View {
             VStack {
                 CustomNavigationBar(title: "Settings", presentationMode: presentationMode) // Pass the presentationMode
 
-                VStack{
-                    HStack(){
+                VStack {
+                    HStack() {
                         Text("Manage")
                             .foregroundColor(Color.bkBrown)
                         Spacer()
                     }.padding(.leading, 32)
-                        .padding(.vertical, 16)
-
+                    .padding(.vertical, 16)
 
                     Divider()
                         .foregroundColor(Color.bkBrown)
-
                         .padding(.horizontal)
-                    VStack (spacing: 32){
-                        HStack{
-                            Text("Location")
-                                .foregroundColor(Color.bkDarkBrown)
-                                .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .foregroundColor(Color.bkBrown)
-                                .font(.subheadline)
+
+                    VStack (spacing: 32) {
+                        Button(action: {
+                            openLocationSettings()
+                        }) {
+                            HStack {
+                                Text("Location")
+                                    .foregroundColor(Color.bkDarkBrown)
+                                    .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(Color.bkBrown)
+                                    .font(.subheadline)
+                            }
                         }
 
-                        HStack{
-                            Text("Notification")
-                                .foregroundColor(Color.bkDarkBrown)
-                                .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .foregroundColor(Color.bkBrown)
-                                .font(.subheadline)
+                        Button(action: {
+                            openNotificationSettings()
+                        }) {
+                            HStack {
+                                Text("Notification")
+                                    .foregroundColor(Color.bkDarkBrown)
+                                    .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(Color.bkBrown)
+                                    .font(.subheadline)
+                            }
                         }
-                    }.padding(.horizontal, 32)
-                        .padding(.vertical, 16)
-                }.background(Color.bkBG)
+                    }
+                    .padding(.horizontal, 32)
+                    .padding(.vertical, 16)
 
-                VStack{
-                    HStack(){
+                } .background(Color.bkBG)
+
+                VStack {
+                    HStack() {
                         Text("Legal")
                             .foregroundColor(Color.bkBrown)
                         Spacer()
                     }.padding(.leading, 32)
-                        .padding(.vertical, 16)
-
+                    .padding(.vertical, 16)
 
                     Divider()
                         .foregroundColor(Color.bkBrown)
-
                         .padding(.horizontal)
-                    VStack (spacing: 32){
-                        HStack{
-                            Text("Terms of services")
-                                .foregroundColor(Color.bkDarkBrown)
-                                .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .foregroundColor(Color.bkBrown)
-                                .font(.subheadline)
+
+                    VStack (spacing: 32) {
+                        Button(action: {
+                            isShowingTermsOfServiceSheet.toggle()
+                        }) {
+                            HStack {
+                                Text("Terms of services")
+                                    .foregroundColor(Color.bkDarkBrown)
+                                    .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(Color.bkBrown)
+                                    .font(.subheadline)
+                            }
                         }
 
-                        HStack{
-                            Text("Privacy policy")
-                                .foregroundColor(Color.bkDarkBrown)
-                                .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .foregroundColor(Color.bkBrown)
-                                .font(.subheadline)
+                        Button(action: {
+                            isShowingPrivacyPolicySheet.toggle()
+                        }) {
+                            HStack {
+                                Text("Privacy policy")
+                                    .foregroundColor(Color.bkDarkBrown)
+                                    .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(Color.bkBrown)
+                                    .font(.subheadline)
+                            }
                         }
-                        HStack{
-                            Text("Acknowledgments")
-                                .foregroundColor(Color.bkDarkBrown)
-                                .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .foregroundColor(Color.bkBrown)
-                                .font(.subheadline)
-                        }
-                    }.padding(.horizontal, 32)
-                        .padding(.vertical, 16)
-                }.background(Color.bkBG)
 
-                HStack{
+                        Button(action: {
+                            isShowingAcknowledgementsSheet.toggle()
+                        }) {
+                            HStack {
+                                Text("Acknowledgments")
+                                    .foregroundColor(Color.bkDarkBrown)
+                                    .flame(font: .regular, size: adaptiveTextSize(size: 16, max: 32))
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(Color.bkBrown)
+                                    .font(.subheadline)
+                            }
+                        }
+                    }
+                    .padding(.horizontal, 32)
+                    .padding(.vertical, 16)
+
+                } .background(Color.bkBG)
+
+                HStack {
                     Text("V6.32.0")
                         .foregroundColor(Color.bkBrown)
                     Spacer()
-                }.padding(.horizontal, 32)
-                    .padding(.vertical, 16)
+                }
+                .padding(.horizontal, 32)
+                .padding(.vertical, 16)
                 .background(Color.bkBG)
 
                 Spacer()
-
-
             }
-        }.navigationBarBackButtonHidden()
+        }
+        .navigationBarBackButtonHidden()
+        .sheet(isPresented: $isShowingTermsOfServiceSheet) {
+            TermsOfServiceView()
+        }
+        .sheet(isPresented: $isShowingPrivacyPolicySheet) {
+            PrivacyPolicyView()
+        }
+        .sheet(isPresented: $isShowingAcknowledgementsSheet) {
+            AcknowledgementsView()
+        }
+    }
+
+    func openLocationSettings() {
+        if let url = URL(string: UIApplication.openSettingsURLString) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+
+    func openNotificationSettings() {
+        if let url = URL(string: UIApplication.openSettingsURLString + "notification_id") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
     }
 }
 

@@ -6,10 +6,9 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @State private var isShowingSettingsView = false
+    @State private var isShowingAuthenticationSheet = false
     @State private var isShowingFollowView = false
     @State private var isShowingContactView = false
-    @State private var isShowingAuthenticationSheet = false
 
     var body: some View {
         ZStack {
@@ -22,7 +21,7 @@ struct ProfileView: View {
 
                 ZStack {
                     VStack(spacing: 32) {
-                        NavigationLink(destination: SettingsView(), isActive: $isShowingSettingsView) {
+                        NavigationLink(destination: SettingsView()) {
                             HStack {
                                 Image(systemName: "gearshape.fill")
                                     .font(.title2)
@@ -116,9 +115,6 @@ struct ProfileView: View {
         }
         .sheet(isPresented: $isShowingAuthenticationSheet) {
             AuthenticationSheet()
-        }
-        .fullScreenCover(isPresented: $isShowingSettingsView) {
-            SettingsView()
         }
         .fullScreenCover(isPresented: $isShowingFollowView) {
             FollowView()
