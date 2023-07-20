@@ -15,4 +15,5 @@ extension Color {
     static let bkDarkBrown = Color("bkDarkBrown")
     static let bkDarkBG = Color("bkDarkBG")
     static let bkCircleBG = Color("bkCircleBG")
+    static let bkGray = Color("bkGray")
 }
