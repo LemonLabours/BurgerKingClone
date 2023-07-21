@@ -53,6 +53,7 @@
 		A9969D7C2A6AF2F200C59367 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9969D7B2A6AF2F200C59367 /* GoogleSignInSwift */; };
 		A9969D7E2A6AF3B300C59367 /* AuthenticationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D7D2A6AF3B300C59367 /* AuthenticationSheet.swift */; };
 		A9969D802A6B0AC900C59367 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D7F2A6B0AC900C59367 /* AuthenticationManager.swift */; };
+		A9969D822A6B0F3100C59367 /* GoogleAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D812A6B0F3100C59367 /* GoogleAuthViewModel.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -109,6 +110,7 @@
 		A9969D672A6AF1A700C59367 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A9969D7D2A6AF3B300C59367 /* AuthenticationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSheet.swift; sourceTree = "<group>"; };
 		A9969D7F2A6B0AC900C59367 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		A9969D812A6B0F3100C59367 /* GoogleAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthViewModel.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				A9969D3D2A654A8F00C59367 /* StartViewModel.swift */,
 				A9969D222A62C3D400C59367 /* AllowNotificationViewModel.swift */,
 				A9969D1E2A62BE8300C59367 /* AllowLocationViewModel.swift */,
+				A9969D812A6B0F3100C59367 /* GoogleAuthViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -556,6 +559,7 @@
 				A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */,
 				A9FA3BC02A58827E0076D776 /* OffersView.swift in Sources */,
 				A9969D2E2A63C53B00C59367 /* BranchCardView.swift in Sources */,
+				A9969D822A6B0F3100C59367 /* GoogleAuthViewModel.swift in Sources */,
 				A9969D332A640BE400C59367 /* CircleButtonView.swift in Sources */,
 				A9969D3E2A654A8F00C59367 /* StartViewModel.swift in Sources */,
 				A9969D4F2A671F9500C59367 /* AcknowledgementsView.swift in Sources */,
