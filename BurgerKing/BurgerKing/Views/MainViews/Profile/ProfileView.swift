@@ -115,6 +115,8 @@ struct ProfileView: View {
         }
         .sheet(isPresented: $isShowingAuthenticationSheet) {
             AuthenticationSheet()
+                .presentationDetents([.medium])
+
         }
         .fullScreenCover(isPresented: $isShowingFollowView) {
             FollowView()
@@ -147,11 +149,6 @@ struct HeaderView: View {
 
 
 
-struct AuthenticationSheet: View {
-    var body: some View {
-        Text("Authentication Sheet")
-    }
-}
 
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {

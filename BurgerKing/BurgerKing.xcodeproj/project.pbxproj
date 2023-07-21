@@ -51,6 +51,7 @@
 		A9969D772A6AF24700C59367 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9969D762A6AF24700C59367 /* FirebaseFirestoreSwift */; };
 		A9969D7A2A6AF2F200C59367 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A9969D792A6AF2F200C59367 /* GoogleSignIn */; };
 		A9969D7C2A6AF2F200C59367 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9969D7B2A6AF2F200C59367 /* GoogleSignInSwift */; };
+		A9969D7E2A6AF3B300C59367 /* AuthenticationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969D7D2A6AF3B300C59367 /* AuthenticationSheet.swift */; };
 		A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */; };
 		A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */; };
 		A9FA3B902A56C6EC0076D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B8F2A56C6EC0076D776 /* Assets.xcassets */; };
@@ -105,6 +106,7 @@
 		A9969D5D2A6975C100C59367 /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeView.swift; sourceTree = "<group>"; };
 		A9969D612A6975F200C59367 /* InstagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramView.swift; sourceTree = "<group>"; };
 		A9969D672A6AF1A700C59367 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9969D7D2A6AF3B300C59367 /* AuthenticationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSheet.swift; sourceTree = "<group>"; };
 		A9FA3B882A56C6EB0076D776 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA3B8B2A56C6EB0076D776 /* BurgerKingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingApp.swift; sourceTree = "<group>"; };
 		A9FA3B8D2A56C6EB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				A9969D5B2A6975B000C59367 /* TwitterView.swift */,
 				A9969D5D2A6975C100C59367 /* YoutubeView.swift */,
 				A9969D612A6975F200C59367 /* InstagramView.swift */,
+				A9969D7D2A6AF3B300C59367 /* AuthenticationSheet.swift */,
 			);
 			path = ProfileCompnents;
 			sourceTree = "<group>";
@@ -556,6 +559,7 @@
 				A9969D492A671F1500C59367 /* FollowView.swift in Sources */,
 				A9FA3BA72A5879590076D776 /* Colors.swift in Sources */,
 				A9FA3BBA2A5882410076D776 /* AllowLocationView.swift in Sources */,
+				A9969D7E2A6AF3B300C59367 /* AuthenticationSheet.swift in Sources */,
 				A9969D192A5FFEE600C59367 /* MapDirectory.swift in Sources */,
 				A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */,
 				A9969D562A6928C000C59367 /* CustomNavigationBar.swift in Sources */,
