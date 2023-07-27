@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9902F452A70514400A0018F /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = A9902F442A70514400A0018F /* FacebookLogin */; };
+		A9902F492A70FA7200A0018F /* FaceBookAuthentication .swift in Sources */ = {isa = PBXBuildFile; fileRef = A9902F482A70FA7200A0018F /* FaceBookAuthentication .swift */; };
+		A9902F4B2A71167700A0018F /* AuthenticationFirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9902F4A2A71167700A0018F /* AuthenticationFirebaseManager.swift */; };
 		A9969CDF2A5988F100C59367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9969CDE2A5988F100C59367 /* LaunchScreen.storyboard */; };
 		A9969CE12A59C62900C59367 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969CE02A59C62900C59367 /* LaunchView.swift */; };
 		A9969CE32A59C67400C59367 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9969CE22A59C67400C59367 /* StartView.swift */; };
@@ -73,6 +76,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9902F462A70ED1400A0018F /* BurgerKing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BurgerKing.entitlements; sourceTree = "<group>"; };
+		A9902F482A70FA7200A0018F /* FaceBookAuthentication .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FaceBookAuthentication .swift"; sourceTree = "<group>"; };
+		A9902F4A2A71167700A0018F /* AuthenticationFirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFirebaseManager.swift; sourceTree = "<group>"; };
 		A9969CDE2A5988F100C59367 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9969CE02A59C62900C59367 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		A9969CE22A59C67400C59367 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -136,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9902F452A70514400A0018F /* FacebookLogin in Frameworks */,
 				A9969D7C2A6AF2F200C59367 /* GoogleSignInSwift in Frameworks */,
 				A9969D6D2A6AF24700C59367 /* FirebaseAnalyticsSwift in Frameworks */,
 				A9969D7A2A6AF2F200C59367 /* GoogleSignIn in Frameworks */,
@@ -151,6 +158,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9902F472A70EE9200A0018F /* FaceBookAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				A9902F482A70FA7200A0018F /* FaceBookAuthentication .swift */,
+			);
+			path = FaceBookAuthentication;
+			sourceTree = "<group>";
+		};
 		A9969D132A5FF83800C59367 /* Location */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +267,7 @@
 		A9FA3B8A2A56C6EB0076D776 /* BurgerKing */ = {
 			isa = PBXGroup;
 			children = (
+				A9902F462A70ED1400A0018F /* BurgerKing.entitlements */,
 				A9FA3BB02A587E840076D776 /* Info.plist */,
 				A9FA3B9D2A586DAB0076D776 /* Managers */,
 				A9FA3B9C2A586DA00076D776 /* Assets */,
@@ -383,7 +399,9 @@
 		A9FA3BA42A586E640076D776 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				A9902F472A70EE9200A0018F /* FaceBookAuthentication */,
 				A9969D7F2A6B0AC900C59367 /* AuthenticationManager.swift */,
+				A9902F4A2A71167700A0018F /* AuthenticationFirebaseManager.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -463,6 +481,7 @@
 				A9969D762A6AF24700C59367 /* FirebaseFirestoreSwift */,
 				A9969D792A6AF2F200C59367 /* GoogleSignIn */,
 				A9969D7B2A6AF2F200C59367 /* GoogleSignInSwift */,
+				A9902F442A70514400A0018F /* FacebookLogin */,
 			);
 			productName = BurgerKing;
 			productReference = A9FA3B882A56C6EB0076D776 /* BurgerKing.app */;
@@ -495,6 +514,7 @@
 			packageReferences = (
 				A9969D692A6AF24700C59367 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				A9969D782A6AF2F200C59367 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				A9902F432A70514400A0018F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = A9FA3B892A56C6EB0076D776 /* Products */;
 			projectDirPath = "";
@@ -554,6 +574,7 @@
 				A9969CE32A59C67400C59367 /* StartView.swift in Sources */,
 				A9969D452A671EC900C59367 /* SettingsView.swift in Sources */,
 				A9969D1F2A62BE8300C59367 /* AllowLocationViewModel.swift in Sources */,
+				A9902F4B2A71167700A0018F /* AuthenticationFirebaseManager.swift in Sources */,
 				A9FA3BC22A5882900076D776 /* ProfileView.swift in Sources */,
 				A9969D432A671D3D00C59367 /* MenuView.swift in Sources */,
 				A9FA3B8E2A56C6EB0076D776 /* ContentView.swift in Sources */,
@@ -571,6 +592,7 @@
 				A9969D192A5FFEE600C59367 /* MapDirectory.swift in Sources */,
 				A9FA3B8C2A56C6EB0076D776 /* BurgerKingApp.swift in Sources */,
 				A9969D562A6928C000C59367 /* CustomNavigationBar.swift in Sources */,
+				A9902F492A70FA7200A0018F /* FaceBookAuthentication .swift in Sources */,
 				A9969D542A69235400C59367 /* MapViewWithRecenterButton.swift in Sources */,
 				A9FA3BBE2A58826C0076D776 /* OrderView.swift in Sources */,
 				A9969D472A671EF400C59367 /* SignInView.swift in Sources */,
@@ -699,6 +721,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BurgerKing/BurgerKing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BurgerKing/Preview Content\"";
@@ -731,6 +754,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BurgerKing/BurgerKing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BurgerKing/Preview Content\"";
@@ -782,6 +806,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A9902F432A70514400A0018F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
 		A9969D692A6AF24700C59367 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -801,6 +833,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A9902F442A70514400A0018F /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9902F432A70514400A0018F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
 		A9969D6A2A6AF24700C59367 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A9969D692A6AF24700C59367 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

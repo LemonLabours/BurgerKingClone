@@ -15,6 +15,35 @@
 			</array>
 		</dict>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>fb599962428932830</string>
+      </array>
+      </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>599962428932830</string>
+    <key>FacebookClientToken</key>
+    <string>db7eeab0eebe71435522ac5850c48754</string>
+    <key>BurgerKingClone</key>
+    <string>BurgerKing</string>
+
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+    </array>
+    
+
 	<key>UIAppFonts</key>
 	<array>
 		<string>Flame-Bold.ttf</string>
@@ -26,4 +55,6 @@
 		<string>location</string>
 	</array>
 </dict>
+
+
 </plist>

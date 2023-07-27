@@ -8,6 +8,8 @@ import SwiftUI
 
 
 struct AuthenticationSheet: View {
+    @StateObject private var viewModel = GoogleAuthViewModel()
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -53,7 +55,7 @@ struct AuthenticationSheet: View {
                         }
 
                         Button(action: {
-                            // Handle email sign-in action here
+                            viewModel.signInWithGoogle()
                         }) {
                             HStack {
                                 Text("Continue with Email")
@@ -100,7 +102,7 @@ struct AuthenticationSheet: View {
                     .padding(.vertical, 16)
                 }
             }
-        }
+        }.environmentObject(viewModel)
     }
 }
 

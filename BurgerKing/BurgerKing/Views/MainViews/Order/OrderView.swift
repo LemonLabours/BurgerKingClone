@@ -69,13 +69,13 @@ struct OrderView: View {
 
                     } else {
                         // Show the MapView when the list bullet is not clicked
-                        MapViewWithRecenterButton(coordinate: $userCoordinate, branches: locationManager.nearestBranches)
+                        MapViewWithRecenterButton(coordinate: $userCoordinate, branches: locationManager.branchLocations)
                             .frame(height: 440)
                             .padding(.bottom, 16)
                     }
                 }
 
-                if isShowingBranches && !isListBulletClicked { // Show the floating horizontal card view only when isShowingBranches is true and isListBulletClicked is false
+                if isShowingBranches && !isListBulletClicked {
                     VStack {
                         Spacer()
                         ScrollView(.horizontal) {
